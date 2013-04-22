@@ -18,6 +18,19 @@ class Fils_Base_Controller extends CI_Controller
 	 */
 	private function _before()
 	{
+		$this->load->library('session');
+
+		//$this->load->helper('url');
+
+		$language = $this->session->userdata('language');
+		$previous_page = $this->session->userdata('previous_page');
+
+		var_dump($language . " the language got from sessions");
+		$this->config->set_item('language', $language);
+		//$config['language'] = ;
+
+		$this->load->helper('language');
+		$this->lang->load('generic');
 
 	}
 

@@ -27,12 +27,44 @@
 
 #logo img				{max-width: 135px;}
 
-ul#mainmenu															{padding-left:0px; top:50%;right: 0; margin: -30px 0 0 0; padding: 0 50px 0 0; position: absolute;}
+/* FLAGS LANGUAGES */
+
+#flags_languages
+{
+    width:100%;
+    height:20px;
+
+    margin-top:0px;
+    margin-bottom:10px;
+    overflow:hidden;
+
+}
+.flagImages
+{
+    float:right;
+    height:100%;
+    margin-right:10px;
+
+}
+
+.flag.active > img{opacity:1;}
+.flag > img:hover{opacity:1;}
+.flag > img{opacity: 0.55;}
+
+ul#mainmenu > li .active
+{
+    -moz-box-shadow: 0px 0px 20px #000000;
+    -webkit-box-shadow: 0px 0px 20px #000000;
+    box-shadow:0px 0px 20px #000000;
+    z-index: 0;
+}
+
+ul#mainmenu															{top:50%;right: 0; margin: -30px 0 0 0; padding: 0 130px 0 0; position: absolute;}
 ul#mainmenu li														{position: relative; display: inline; float: left; list-style-type: none;}
-ul#mainmenu > li a												{border: 0; font-size: 18px; line-height: 1em; display: block; text-decoration: none;}
+ul#mainmenu > li a												{font-family: 'Open Sans', sans-serif;border: 0; font-size: 18px; line-height: 1em; display: block; text-decoration: none;}
 ul#mainmenu > li:first-child{
     height: 60px;
-    padding-left: 0px !important;
+    padding-left: 25px !important;
     overflow: hidden;
 }
 ul#mainmenu > li:first-child:before, .mobile_link:before{
@@ -56,18 +88,18 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
     margin-top: -30px;
     position: absolute;
     overflow: hidden;
-    width: 35px;
+    width: 30px;
     height: 60px;
-    right: -1px;
+    right: -0.5px;
     padding-left: 20px;
-    -webkit-transition: width .2s ease-in;
-    -moz-transition: width .2s ease-in;
-    -ms-transition: width .2s ease-in;
-    -o-transition: width .2s ease-in;
-    transition: width .2s ease-in;
+    -webkit-transition: width .2s ease;
+    -moz-transition: width .2s ease;
+    -ms-transition: width .2s ease;
+    -o-transition: width .2s ease;
+    transition: width .2s ease;
 }
 .search_bar:hover{
-    width: 140px;
+    width: 150px;
 }
 .search_bar input[type="text"]	{
     border: 0;
@@ -77,9 +109,9 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
     text-align: center;
     position: relative;
     font-size: 10px;
-    width: 100px;
+    width: 120px;
     height: 60px;
-    left: 0;
+    left: 10px;
 }
 .search_button{
     position: absolute;
@@ -109,7 +141,7 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
 
 /* Sub Menu*/
 ul#mainmenu li ul					{position: absolute; left: 0; display: block; visibility: hidden; z-index: 9999;}
-ul#mainmenu li ul li				{display: list-item; float: none;left:0; min-width: 180px; white-space: nowrap; margin: 0; list-style-type: none;}
+ul#mainmenu li ul li				{display: list-item; float: none; min-width: 180px; white-space: nowrap; margin: 0; list-style-type: none;}
 ul#mainmenu li ul li ul				{top: 0;}
 ul#mainmenu li ul li a				{font-size: 14px; font-weight: 400; line-height: 1em; border-top-width: 0; text-transform: none; padding: 12px;}
 
@@ -123,12 +155,17 @@ ul#mainmenu li ul li a				{font-size: 14px; font-weight: 400; line-height: 1em; 
 }
 /* Header
 -------------*/
-#header_wrapper	{position: relative; padding: 40px 0;}
-#header				{width: 940px;}
+#header_wrapper	{position: relative; padding: 10px 0;}
+#header				{width: 1000px;}
 
 /* Main Menu*/
-#header #logo			{padding: 15px 10px; position: relative;}
+#header #logo			{padding: 15px 5px; position: relative;}
+
 ul#mainmenu > li		{height: 60px; padding: 0; margin: 0; float: left; position: relative;}
 ul#mainmenu > li > a	{height: 18px; padding: 21px;}
-
+ul#mainmenu ul,ol
+{
+    padding: 0;
+    margin: 0 0 10px 0px;
+}
 .mobile_link								{display: none;}

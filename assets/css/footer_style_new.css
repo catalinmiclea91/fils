@@ -5,6 +5,9 @@
 }#footer {
     width:100%;
     padding-bottom:64px;
+    margin-top:40px;
+
+     font-family: 'Open Sans', sans-serif;
 }
 #footerdiv {
     position:relative;
@@ -23,8 +26,6 @@ background: -ms-linear-gradient(top, rgba(125,185,232,0) 23%,rgba(125,185,232,0.
 background: linear-gradient(to bottom, rgba(125,185,232,0) 23%,rgba(125,185,232,0.1) 30%,rgba(82,119,135,0.7) 73%,rgba(82,119,135,1) 94%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#527787',GradientType=0 ); /* IE6-9 */
 
-position:absolute;
-bottom:0;
 }
 
 .sitemap {
@@ -76,22 +77,20 @@ bottom:0;
 }
 
 .supportfooter {
-    position:absolute;
     top:110px;
     right:0;
     width:300px;
     text-align:right;
+    float:right;
 }
 a.supportnumber {
     display:block;
     width:137px;
     height:32px;
-    margin-bottom:20px;
-    background:url(/_images/footer-877-alpha.png) no-repeat;
 }
 
 .supportfooter p {
-    font-size:11px;
+    font-size:14px;
     color:#ddd;
 }
 .supportfooter p a, .supportfooter p a:visited, .supportfooter p a:link {
@@ -124,3 +123,9 @@ a.supportnumber {
 ol, ul {
     list-style: none;
 }
+
+
+
+
+/****************************************************************** aici test ***********************************************************************/
+

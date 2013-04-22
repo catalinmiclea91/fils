@@ -3,6 +3,11 @@
 class Home extends Fils_Layout_Controller
 {
 
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
 	/**
 	 * Index Page for home controller.
 	 *
@@ -22,6 +27,8 @@ class Home extends Fils_Layout_Controller
 	 */
 	public function index()
 	{
+
+
 
 		$this->add_view('home');
 		$this->render();

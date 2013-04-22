@@ -5,12 +5,18 @@
 
     <!-- header -->
     <div id="header_wrapper" class="clearfix">
+        <div id="flags_languages">
+            <a href="" id="btnFlag_de" class="flag"><img alt="De" Flag" id="imgFlag_de" src="assets/images/de_flag_round_small.jpg" class="flagImages" /></a>
+            <a href="" id="btnFlag_fr" class="flag"><img alt="Fr Flag" id="imgFlag_fr" src="assets/images/fr_flag_round.jpg" class="flagImages" /></a>
+            <a href="" id="btnFlag_en" class="flag"><img alt="En Flag" id="imgFlag_en" src="assets/images/en_flag_round small.jpg" class="flagImages" /></a>
+            <a href="" id="btnFlag_ro" class="flag active"><img alt="Ro Flag" id="imgFlag_ro" src="assets/images/ro_flag_round.jpg" class="flagImages" /></a>
+        </div>
         <!-- menu -->
         <div id="header">
 	        <!-- logo -->
             <div id="logo">
 	            <a href="http://dreamlife.designforlifeden.com/index.html">
-	                <img src="assets/images/logo.png" alt="logo">
+	                <img src="assets/images/fils_logo.png" alt="logo">
                 </a>
             </div>
             <!-- logo end -->
@@ -86,7 +92,7 @@
                 </li>
                 <li>
                     <a href="http://dreamlife.designforlifeden.com/nivo_slider.html">Sliders</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="http://dreamlife.designforlifeden.com/nivo_slider.html">Nivo Slider</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/camera_slider.html">Camera Slider</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/flex_slider.html">Flex Slider</a></li>
@@ -99,7 +105,7 @@
                 </li>
                 <li>
                     <a href="http://dreamlife.designforlifeden.com/about_us.html">Pages</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="http://dreamlife.designforlifeden.com/about_us.html">About Us</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/services.html">Services</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/pricing_options.html">Pricing Options</a></li>
@@ -116,7 +122,7 @@
                 </li>
                 <li>
                     <a href="http://dreamlife.designforlifeden.com/portfolio_four_columns.html">Portfolio</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="http://dreamlife.designforlifeden.com/portfolio_one_column.html">1 Column</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/portfolio_two_columns.html">2 Columns</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/portfolio_three_columns.html">3 Columns</a></li>
@@ -127,7 +133,7 @@
                 </li>
                 <li>
                     <a href="http://dreamlife.designforlifeden.com/blog_full_width.html" class="active">Blog</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="http://dreamlife.designforlifeden.com/blog_full_width.html">Blog Full Width</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/blog_large_image.html">Blog Large Image</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/blog_medium_image.html">Blog Medium Image</a></li>
@@ -136,10 +142,10 @@
                 </li>
                 <li>
                     <a href="http://dreamlife.designforlifeden.com/showcase.html">Features</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li>
                             <a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Colors</a>
-                            <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                            <ul style="top: 0px; display: none; left:120px; visibility: visible;">
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#" class="change_color" data-color="pink">Pink</a></li>
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#" class="change_color" data-color="green">Green</a></li>
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#" class="change_color" data-color="blue">Blue</a></li>
@@ -149,13 +155,13 @@
                         </li>
                         <li>
                             <a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Sub Menu</a>
-                            <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                            <ul style="top: 0px; display: none; visibility: visible;">
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Third Level 1</a></li>
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Third Level 2</a></li>
                                 <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Third Level 3</a></li>
                                 <li>
                                     <a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Third Level 4</a>
-                                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                                    <ul style="top: 0px; display: none; visibility: visible;">
                                         <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Fourth Level 1</a></li>
                                         <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Fourth Level 2</a></li>
                                         <li><a href="http://dreamlife.designforlifeden.com/blog_single_post.html#">Fourth Level 3</a></li>
@@ -166,9 +172,9 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <!--<li>
                     <a href="http://dreamlife.designforlifeden.com/elements.html">Shortcodes</a>
-                    <ul style="margin-left:0px; top: 60px; visibility: visible; left: 0px; width: 180px; display: block;">
+                    <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="http://dreamlife.designforlifeden.com/elements.html">Elements</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/icons.html">Icons</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/pricing_options.html">Pricing Tables</a></li>
@@ -176,7 +182,7 @@
                         <li><a href="http://dreamlife.designforlifeden.com/typography.html">Typography</a></li>
                         <li><a href="http://dreamlife.designforlifeden.com/media.html">Media</a></li>
                     </ul>
-                </li>
+                </li>-->
                 <li><a href="http://dreamlife.designforlifeden.com/contact.html">Contact</a></li>
             </ul>
             <!-- main menu end -->
