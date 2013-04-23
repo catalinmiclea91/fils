@@ -6,10 +6,10 @@
     <div id="header_wrapper" class="clearfix">
         <div id="flags_languages">
             <?php $language = $this->session->userdata('language'); ?>
-            <a href="functions/setLanguage/deutsch/home" id="btnFlag_de" class="flag <?php if($language == 'deutsch') echo 'active'; ?>"><img alt="De" Flag" id="imgFlag_de" src="/assets/images/de_flag_round_small.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/french/home" id="btnFlag_fr" class="flag <?php if($language == 'french') echo 'active'; ?>"><img alt="Fr Flag" id="imgFlag_fr" src="/assets/images/fr_flag_round.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/english/home" id="btnFlag_en" class="flag <?php if($language == 'english') echo 'active'; ?>"><img alt="En Flag" id="imgFlag_en" src="/assets/images/en_flag_round small.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/romanian/home" id="btnFlag_ro" class="flag <?php if($language == 'romanian') echo 'active'; ?>"><img alt="Ro Flag" id="imgFlag_ro" src="/assets/images/ro_flag_round.jpg" class="flagImages" /></a>
+            <a href="/functions/setLanguage/deutsch/home" id="btnFlag_de" class="flag <?php if($language == 'deutsch') echo 'active'; ?>"><img alt="De" Flag" id="imgFlag_de" src="/assets/images/de_flag_round_small.jpg" class="flagImages" /></a>
+            <a href="/functions/setLanguage/french/home" id="btnFlag_fr" class="flag <?php if($language == 'french') echo 'active'; ?>"><img alt="Fr Flag" id="imgFlag_fr" src="/assets/images/fr_flag_round.jpg" class="flagImages" /></a>
+            <a href="/functions/setLanguage/english/home" id="btnFlag_en" class="flag <?php if($language == 'english') echo 'active'; ?>"><img alt="En Flag" id="imgFlag_en" src="/assets/images/en_flag_round small.jpg" class="flagImages" /></a>
+            <a href="/functions/setLanguage/romanian/home" id="btnFlag_ro" class="flag <?php if($language == 'romanian') echo 'active'; ?>"><img alt="Ro Flag" id="imgFlag_ro" src="/assets/images/ro_flag_round.jpg" class="flagImages" /></a>
         </div>
         <!-- menu -->
         <div id="header">
@@ -27,28 +27,36 @@
                     <a href="/"  id="aImgHome"><img src="/assets/images/icons/home_icon.jpg" alt="Home" id="imgHome"></a>
                 </li>
                 <li>
-                    <a href="admitere"><?= lang('admission');?></a>
+                    <a href="/admission/admission"><?= lang('admission');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">Link</a></li>
-
+                        <li><a href="/admission/licence"><?= lang('licence');?></a></li>
+                        <li><a href="/admission/master"><?= lang('master');?></a></li>
+                        <li><a href="/admission/doctorate"><?= lang('doctorate');?></a></li>
+                        <li><a href="/admission/other_info"><?= lang('other-info');?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href=""><?= lang('education');?></a>
+                    <a href="education"><?= lang('education');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">Link</a></li>
-
+                        <li><a href="/education/licence"><?= lang('licence');?></a></li>
+                        <li><a href="/education/master"><?= lang('master');?></a></li>
+                        <li><a href="/education/doctorate"><?= lang('doctorate');?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href=""><?= lang('students');?></a>
+                    <a href="students"><?= lang('students');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">Link</a></li>
-
+                        <li><a href=""><?= lang('schedule');?></a></li>
+                        <li><a href=""><?= lang('foreign-internships');?></a></li>
+                        <li><a href=""><?= lang('practical-internships');?></a></li>
+                        <li><a href=""><?= lang('personal-page');?></a></li>
+                        <li><a href=""><?= lang('accommodation');?></a></li>
+                        <li><a href=""><?= lang('student-organizations');?></a></li>
+                        <li><a href=""><?= lang('foreign-students');?></a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="" class="active"><?= lang('about-us');?></a>
+                    <a href="about" class="active"><?= lang('about-us');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
                         <li><a href="">Link</a></li>
                         <li><a href="">Link</a></li>
@@ -56,7 +64,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href=""><?= lang('image');?></a>
+                    <a href="image"><?= lang('image');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
                         <li>
                             <a href="">Link</a>
@@ -80,7 +88,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href=""><?= lang('contact');?></a></li>
+                <li><a href="contact"><?= lang('contact');?></a></li>
             </ul>
             <!-- main menu end -->
             <!-- search bar -->
