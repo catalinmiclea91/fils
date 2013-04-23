@@ -5,10 +5,11 @@
     <!-- header -->
     <div id="header_wrapper" class="clearfix">
         <div id="flags_languages">
-            <a href="functions/setLanguage/deutsch/home" id="btnFlag_de" class="flag"><img alt="De" Flag" id="imgFlag_de" src="/assets/images/de_flag_round_small.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/french/home" id="btnFlag_fr" class="flag"><img alt="Fr Flag" id="imgFlag_fr" src="/assets/images/fr_flag_round.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/english/home" id="btnFlag_en" class="flag"><img alt="En Flag" id="imgFlag_en" src="/assets/images/en_flag_round small.jpg" class="flagImages" /></a>
-            <a href="functions/setLanguage/romanian/home" id="btnFlag_ro" class="flag active"><img alt="Ro Flag" id="imgFlag_ro" src="/assets/images/ro_flag_round.jpg" class="flagImages" /></a>
+            <?php $language = $this->session->userdata('language'); ?>
+            <a href="functions/setLanguage/deutsch/home" id="btnFlag_de" class="flag <?php if($language == 'deutsch') echo 'active'; ?>"><img alt="De" Flag" id="imgFlag_de" src="/assets/images/de_flag_round_small.jpg" class="flagImages" /></a>
+            <a href="functions/setLanguage/french/home" id="btnFlag_fr" class="flag <?php if($language == 'french') echo 'active'; ?>"><img alt="Fr Flag" id="imgFlag_fr" src="/assets/images/fr_flag_round.jpg" class="flagImages" /></a>
+            <a href="functions/setLanguage/english/home" id="btnFlag_en" class="flag <?php if($language == 'english') echo 'active'; ?>"><img alt="En Flag" id="imgFlag_en" src="/assets/images/en_flag_round small.jpg" class="flagImages" /></a>
+            <a href="functions/setLanguage/romanian/home" id="btnFlag_ro" class="flag <?php if($language == 'romanian') echo 'active'; ?>"><img alt="Ro Flag" id="imgFlag_ro" src="/assets/images/ro_flag_round.jpg" class="flagImages" /></a>
         </div>
         <!-- menu -->
         <div id="header">

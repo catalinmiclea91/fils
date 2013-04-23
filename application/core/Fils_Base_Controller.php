@@ -3,6 +3,8 @@
 class Fils_Base_Controller extends CI_Controller
 {
 
+    public $language;
+
 	public function __construct()
 	{
 		parent::__construct();
@@ -21,18 +23,14 @@ class Fils_Base_Controller extends CI_Controller
 		$this->load->library('session');
 		$this->load->helper('url');
 
-		$language = $this->session->userdata('language');
-//		$previous_page = $this->session->userdata('previous_page');
+		$this->language = $this->session->userdata('language');     // Trebuie facuta o verificare aici, default - limba default
 
-//		var_dump($language . " the language got from sessions");
-//        exit($language);
-		$this->config->set_item('language', $language);
+		$this->config->set_item('language', $this->language);
 
 		$this->load->helper('language');
 		$this->lang->load('generic');
 
 	}
-
 
 }
 

@@ -8,23 +8,13 @@ class Functions extends Fils_Base_Controller
 		parent::__construct();
 	}
 
-    public function index(){
-        echo 'Hello';
-    }
-
 	public function setLanguage($language, $page)
 	{
-		//faci un switch aici cu default 'english'
-
-
 		$newdata = array(
-			'language'  => $language,
-			'previous_page' => $page,
+			'language'  => $language
 		);
-
 		$this->session->set_userdata($newdata);
-
-        //redirect('/', 'refresh');
+        redirect($page, 'refresh');
 	}
 
 }
