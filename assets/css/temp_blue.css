@@ -4,6 +4,13 @@
 /*Main Menu*/
 #logo																							{background:url('../images/logo/blue.png') no-repeat 10px 15px;}
 #logo img																						{opacity: 1;}
+#aImgHome { padding-bottom:10px; }
+#logo a {margin-left:15px;}
+#imgHome:hover {
+    -moz-box-shadow: 0px 0px 20px #000000;
+    -webkit-box-shadow: 0px 0px 20px #000000;
+    box-shadow:0px 0px 20px #000000;
+}
 
 ul#mainmenu > li a.active	{
     background: #3a76b2; /* Old browsers */
@@ -17,7 +24,7 @@ ul#mainmenu > li a.active	{
 
 ul#mainmenu > li a																		{color: #fff;}
 ul#mainmenu > li a:hover,ul#mainmenu > li a.hover							{background: #444;}
-
+ul#mainmenu > li > #aImgHome:hover		{background: transparent;}
 /*Menu Gradient Color*/
 #header,ul#mainmenu > li:first-child:before,.search_bar:before, .mobile_link:before{
     background: #ffffff; /* Old browsers */
@@ -48,3 +55,4 @@ ul#mainmenu{
 /*Sub Menu*/
 ul#mainmenu li ul li a				{border-bottom: 1px solid #555; background-color: #444; color: #b7b7b7;}
 ul#mainmenu li ul li a:hover		{color: #fff;}
+

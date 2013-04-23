@@ -12,48 +12,48 @@
             <ul>
                 <li><a href="/webhosting/"><strong>Web Hosting</strong></a>
                     <ul>
-                        <li><a href="/virb/" class="tinynew">Virb</a></li>
-                        <li><a href="/webhosting/gs/">(gs) Grid-Service</a></li>
-                        <li><a href="/webhosting/dv/">(dv) Dedicated-Virtual</a></li>
-                        <li><a href="/webhosting/ve/">(ve) Server</a></li>
-                        <li><a href="/webhosting/nitro/">(dpv) Nitro</a></li>
-                        <li><a href="/webhosting/procdn/" style="background-position: 50% 5px;">ProCDN</a></li>
+                        <li><a href="" class="tinynew">Virb</a></li>
+                        <li><a href="">(gs) Grid-Service</a></li>
+                        <li><a href="">(dv) Dedicated-Virtual</a></li>
+                        <li><a href="">(ve) Server</a></li>
+                        <li><a href="">(dpv) Nitro</a></li>
+                        <li><a href="" style="background-position: 50% 5px;">ProCDN</a></li>
                     </ul>
                 </li>
             </ul>
             <ul>
-                <li><a href="/company/ten-reasons.php"><strong>Why (mt)</strong></a>
+                <li><a href=""><strong>Why (mt)</strong></a>
                     <ul>
-                        <li><a href="/company/ten-reasons.php">10 Reasons</a></li>
-                        <li><a href="/company/clients/">Our Clients</a></li>
-                        <li><a href="/company/technology.php">Technology</a></li>
-                        <li><a href="/labs/">(mt) Labs</a></li>
-                        <li><a href="/api/">ProDev API</a></li>
+                        <li><a href="">10 Reasons</a></li>
+                        <li><a href="">Our Clients</a></li>
+                        <li><a href="">Technology</a></li>
+                        <li><a href="">(mt) Labs</a></li>
+                        <li><a href="">ProDev API</a></li>
                     </ul>
                 </li>
             </ul>
             <ul>
-                <li><a href="/company/about.php" rel="nofollow"><strong>Company</strong></a>
+                <li><a href="" rel="nofollow"><strong>Company</strong></a>
                     <ul>
-                        <li><a href="/company/about.php">About (mt)</a></li>
-                        <li><a href="/company/contact.php" rel="nofollow">Contact Us</a></li>
-                        <li><a href="/madeonmt/" class="tinynew">Made on (mt)</a></li>
-                        <li><a href="/company/employment.php">Employment</a></li>
-                        <li><a href="/roadmap/">Roadmap</a></li>
-                        <li><a href="/company/press/">Press</a></li>
-                        <li><a href="/affiliate/">Affiliate Program</a></li>
+                        <li><a href="">About (mt)</a></li>
+                        <li><a href="" rel="nofollow">Contact Us</a></li>
+                        <li><a href="" class="tinynew">Made on (mt)</a></li>
+                        <li><a href="">Employment</a></li>
+                        <li><a href="">Roadmap</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Affiliate Program</a></li>
                     </ul>
                 </li>
             </ul>
             <ul>
-                <li><a href="/support/" rel="nofollow"><strong>Support</strong></a>
+                <li><a href="" rel="nofollow"><strong>Support</strong></a>
                     <ul>
-                        <li><a href="/support/">Our Promise</a></li>
-                        <li><a href="http://ac.mediatemple.net/">AccountCenter Login</a></li>
-                        <li><a href="http://status.mediatemple.net/">System Status</a></li>
-                        <li><a href="https://kb.mediatemple.net/" target="_blank">KnowledgeBase</a></li>
-                        <li><a href="/ottomove/" class="tinynew">Move with Otto</a></li>
-                        <li><a href="/help/">Help Center</a></li>
+                        <li><a href="">Our Promise</a></li>
+                        <li><a href="">AccountCenter Login</a></li>
+                        <li><a href="">System Status</a></li>
+                        <li><a href="" target="_blank">KnowledgeBase</a></li>
+                        <li><a href="" class="tinynew">Move with Otto</a></li>
+                        <li><a href="">Help Center</a></li>
                     </ul>
                 </li>
             </ul>
