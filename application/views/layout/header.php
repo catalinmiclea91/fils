@@ -27,78 +27,60 @@
                     <a href="/"  id="aImgHome"><img src="/assets/images/icons/home_icon.jpg" alt="Home" id="imgHome"></a>
                 </li>
                 <li>
-                    <a href="admitere">Admitere</a>
+                    <a href="admitere"><?= lang('admission');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">Nivo Slider</a></li>
+                        <li><a href="">Link</a></li>
 
                     </ul>
                 </li>
                 <li>
-                    <a href="">Studii</a>
+                    <a href=""><?= lang('education');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">About Us</a></li>
+                        <li><a href="">Link</a></li>
 
                     </ul>
                 </li>
                 <li>
-                    <a href="">Studenti</a>
+                    <a href=""><?= lang('students');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">1 Column</a></li>
+                        <li><a href="">Link</a></li>
 
                     </ul>
                 </li>
                 <li>
-                    <a href="" class="active">Despre noi</a>
+                    <a href="" class="active"><?= lang('about-us');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="">Blog Full Width</a></li>
-                        <li><a href="">Blog Large Image</a></li>
-                        <li><a href="">Blog Medium Image</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">Imagine</a>
+                    <a href=""><?= lang('image');?></a>
                     <ul style="top: 60px; display: none; visibility: visible;">
                         <li>
-                            <a href="">Colors</a>
-                            <ul style="top: 0px; display: none; left:120px; visibility: visible;">
-                                <li><a href="" class="change_color" data-color="pink">Pink</a></li>
-                                <li><a href="" class="change_color" data-color="green">Green</a></li>
-                                <li><a href="" class="change_color" data-color="blue">Blue</a></li>
-                                <li><a href="" class="change_color" data-color="orange">Orange</a></li>
-                                <li><a href="" class="change_color" data-color="black">Black</a></li>
-                            </ul>
+                            <a href="">Link</a>
                         </li>
                         <li>
-                            <a href="">Sub Menu</a>
+                            <a href="">Sub Meniu</a>
                             <ul style="top: 0px; display: none; visibility: visible;">
-                                <li><a href="">Third Level 1</a></li>
-                                <li><a href="">Third Level 2</a></li>
-                                <li><a href="">Third Level 3</a></li>
+                                <li><a href="">Link 1</a></li>
+                                <li><a href="">Link 2</a></li>
+                                <li><a href="">Link 3</a></li>
                                 <li>
-                                    <a href="#">Third Level 4</a>
+                                    <a href="#">Sub sub meniu</a>
                                     <ul style="top: 0px; display: none; visibility: visible;">
-                                        <li><a href="">Fourth Level 1</a></li>
-                                        <li><a href="">Fourth Level 2</a></li>
-                                        <li><a href="">Fourth Level 3</a></li>
-                                        <li><a href="">Fourth Level 4</a></li>
+                                        <li><a href="">Link 1</a></li>
+                                        <li><a href="">Link 2</a></li>
+                                        <li><a href="">Link 3</a></li>
+                                        <li><a href="">Link 4</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <!--<li>
-                    <a href="http://dreamlife.designforlifeden.com/elements.html">Shortcodes</a>
-                    <ul style="top: 60px; display: none; visibility: visible;">
-                        <li><a href="http://dreamlife.designforlifeden.com/elements.html">Elements</a></li>
-                        <li><a href="http://dreamlife.designforlifeden.com/icons.html">Icons</a></li>
-                        <li><a href="http://dreamlife.designforlifeden.com/pricing_options.html">Pricing Tables</a></li>
-                        <li><a href="http://dreamlife.designforlifeden.com/sliders.html">Sliders</a></li>
-                        <li><a href="http://dreamlife.designforlifeden.com/typography.html">Typography</a></li>
-                        <li><a href="http://dreamlife.designforlifeden.com/media.html">Media</a></li>
-                    </ul>
-                </li>-->
-                <li><a href="">Contact</a></li>
+                <li><a href=""><?= lang('contact');?></a></li>
             </ul>
             <!-- main menu end -->
             <!-- search bar -->

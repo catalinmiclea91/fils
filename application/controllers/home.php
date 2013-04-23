@@ -30,6 +30,9 @@ class Home extends Fils_Layout_Controller
 		$this->add_view('home');
 		$this->render();
 	}
+
+
+
 }
 
 /* End of file home.php */

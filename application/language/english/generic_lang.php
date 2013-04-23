@@ -7,4 +7,9 @@
  * To change this template use File | Settings | File Templates.
  */
 
-$lang['gender'] = "I'm a man";
+$lang['admission'] = "Admission";
+$lang['education'] = "Education";
+$lang['students'] = "Students";
+$lang['about-us'] = "About Us";
+$lang['image'] = "Image";
+$lang['contact'] = "Contact";

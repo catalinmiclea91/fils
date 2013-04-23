@@ -177,7 +177,7 @@ $(document).ready(function(){
   	/*Progress Bars*/
   	$(".progress_bar").each(function(index) {
     	$(this).find('span').animate({
-    		width: $(this).attr("data-percentage")+"%"
+    		width: $(this).attr("data-percentage")+"%",
   		}, 650 );
   		if($(this).attr("data-title")){
   			$(this).find('span').append($(this).attr("data-title")+"&nbsp;&nbsp;&nbsp;");
@@ -442,7 +442,7 @@ $(document).ready(function(){
 									</div> \
 								</div> \
 								<link rel="stylesheet" type="text/css" href="" id="wide_css"/> <link rel="stylesheet" type="text/css" href="" id="color_css"/>';
-	//$('body').append(config_tags);
+	$('body').append(config_tags);
 	$(document).on('change', 'input[name="lt"]', function(){
 		if($("#wide_css").attr("href")==""){
 			$("#wide_css").attr("href", "assets/css/wide.css");
