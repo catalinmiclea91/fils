@@ -401,48 +401,9 @@ $(document).ready(function(){
 	$(".a_blogpost .hover").mouseleave(function(){
 		$(this).fadeOut().find(".post_links").animate({top:'100%'},400,'easeOutBack');;
 	});
-	
-	/*Theme Config*/
-	var config_tags = '<div class="theme_config"> \
-									<div class="icon"><span class="config"></span></div> \
-									<div class="config_content">\
-										<h4>Change Style</h4> \
-										<p>Wide Layout <input type="checkbox" name="lt" value="wide"></p> \
-										<h6>Change Colors</h6> \
-										<p> \
-											<span class="change_color pink" data-color="pink"></span>\
-											<span class="change_color green" data-color="green"></span>\
-											<span class="change_color blue" data-color="blue"></span>\
-											<span class="change_color orange" data-color="orange"></span>\
-											<span class="change_color black" data-color="black"></span>\
-										</p> \
-										<h6>Pattern BG</h6> \
-										<p> \
-											<span class="change_pbg p1" data-bg="pattern"></span> \
-											<span class="change_pbg p2" data-bg="az_subtle"></span> \
-											<span class="change_pbg p6" data-bg="retina_wood"></span> \
-											<span class="change_pbg p3" data-bg="grey"></span> \
-											<span class="change_pbg p4" data-bg="skelatal_weave"></span> \
-											<span class="change_pbg p5" data-bg="asfalt"></span> \
-											<span class="change_pbg p11" data-bg="type"></span> \
-											<span class="change_pbg p7" data-bg="extra_clean_paper"></span> \
-											<span class="change_pbg p8" data-bg="diamond_upholstery"></span> \
-											<span class="change_pbg p12" data-bg="dark_wood"></span> \
-											<span class="change_pbg p9" data-bg="hexellence"></span> \
-											<span class="change_pbg p10" data-bg="irongrip"></span> \
-										</p> \
-										<h6>Image BG</h6> \
-										<p> \
-											<span class="change_bg p1" data-bg="1"></span> \
-											<span class="change_bg p2" data-bg="2"></span> \
-											<span class="change_bg p3" data-bg="3"></span> \
-											<span class="change_bg p4" data-bg="4"></span> \
-											<span class="change_bg p5" data-bg="5"></span> \
-										</p> \
-									</div> \
-								</div> \
-								<link rel="stylesheet" type="text/css" href="" id="wide_css"/> <link rel="stylesheet" type="text/css" href="" id="color_css"/>';
-	$('body').append(config_tags);
+
+
+
 	$(document).on('change', 'input[name="lt"]', function(){
 		if($("#wide_css").attr("href")==""){
 			$("#wide_css").attr("href", "assets/css/wide.css");
@@ -468,14 +429,4 @@ $(document).ready(function(){
 		$('body').css("background","url('assets/images/mix/bg/"+$(this).attr("data-bg")+".jpg') no-repeat 50% 50%").css({'background-attachment': 'fixed', 'background-size': 'cover'});
 	});
 	/**/
-});
-$(window).load(function() {
-	/*Call Flex Slider*/
- 	$('.flexslider').flexslider({
- 	  animation: "slide",
- 	  slideshow: false,
- 	  pauseOnHover: true
- 	});
-  	/*Call Nivo Slider*/
-  	$('#nivoslider, .blogSlider > div, .projectSlider > div, .sliderinPage > div').nivoSlider({pauseTime:4000});
 });

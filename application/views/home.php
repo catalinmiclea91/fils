@@ -1,4 +1,4 @@
-<div style="margin-top: 20px;">
+<div>
 
     Facultatea de Inginerie în Limbi Straine (FILS ) este o scoala de ingineri care functioneaza în cadrul Universitatii POLITEHNICA din Bucuresti, în care învatamântul se desfasoara integral în 3 limbi de circulatie internationala: Engleza, Franceza si Germana.
 

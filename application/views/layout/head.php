@@ -10,14 +10,14 @@
     <title></title>
 
     <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" href="/assets/css/temp_general.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/temp_blue.css">
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/footer_style_new.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <!-- schimba asta -->
     <!--[if lte IE 8]>
-	<link rel="stylesheet" type="text/css" href="/assets/css/temp_ie8.css" />
+    	<link rel="stylesheet" type="text/css" href="/assets/css/temp_ie8.css" />
     <![endif]-->
 
 </head>
