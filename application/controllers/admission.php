@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Admitere extends Fils_Layout_Controller
+class Admission extends Fils_Layout_Controller
 {
 
     public function __construct()
@@ -27,7 +27,29 @@ class Admitere extends Fils_Layout_Controller
      */
     public function index()
     {
-        $this->add_view('admitere');
+        $this->add_view('admission/admission');
+        $this->render();
+    }
+
+    /*Submenu functions*/
+    public function licence()
+    {
+        $this->add_view('admission/licence');
+        $this->render();
+    }
+    public function master()
+    {
+        $this->add_view('admission/master');
+        $this->render();
+    }
+    public function doctorate()
+    {
+        $this->add_view('admission/doctorate');
+        $this->render();
+    }
+    public function other_info()
+    {
+        $this->add_view('admission/other-info');
         $this->render();
     }
 }
