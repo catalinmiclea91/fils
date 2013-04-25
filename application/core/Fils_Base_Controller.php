@@ -23,7 +23,7 @@ class Fils_Base_Controller extends CI_Controller
 		$this->load->library('session');
 		$this->load->helper('url');
 
-		$this->language = $this->session->userdata('language');     // Trebuie facuta o verificare aici, default - limba default
+        $this->_switchLanguage();   // set the language
 
 		$this->config->set_item('language', $this->language);
 
@@ -32,7 +32,27 @@ class Fils_Base_Controller extends CI_Controller
 
 	}
 
-}
+    private function _switchLanguage()
+    {
+        $session_language = $this->session->userdata('language');
+        switch($session_language)
+        {
+            case 'english':
+                $this->language = 'english';
+                break;
+            case 'french':
+                $this->language = 'french';
+                break;
+            case 'deutsch':
+                $this->language = 'deutsch';
+                break;
+            default:
+                $this->language = 'romanian';
+                $this->session->set_userdata('language','romanian');
+        }
+    }
 
+
+}
 /* End of file Fils_Base_Controller.php */
 /* Location: ./application/controllers/Fils_Base_Controller.php */

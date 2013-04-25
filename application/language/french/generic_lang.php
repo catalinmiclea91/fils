@@ -30,6 +30,6 @@ $lang['accommodation'] = "Hébergement";
 $lang['student-organizations'] = "Les organisations étudiantes";
 $lang['foreign-students'] = "Les étudiants étrangers";
 
-$lang['about-us'] = "À propos de nous";
+$lang['about-us'] = "Nous";
 $lang['image'] = "Image";
 $lang['contact'] = "Contactez";

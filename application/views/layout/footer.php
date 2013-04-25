@@ -81,7 +81,6 @@
 <!-- Le JS -->
 <script src="/assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="/assets/js/jquery.components.js" type="text/javascript"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="/assets/js/custom.js" type="text/javascript"></script>
 
 </body>

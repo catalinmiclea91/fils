@@ -8,10 +8,8 @@
     <meta name="numele autorilor" content="to be completed">
     <meta name="description" content="">
     <title></title>
-
-    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+<!--    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 

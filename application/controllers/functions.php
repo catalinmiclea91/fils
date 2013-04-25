@@ -8,13 +8,24 @@ class Functions extends Fils_Base_Controller
 		parent::__construct();
 	}
 
-	public function setLanguage($language, $page)
+	public function setLanguage($language, $segment1, $segment2 = '', $segment3 = '')
 	{
 		$newdata = array(
 			'language'  => $language
 		);
 		$this->session->set_userdata($newdata);
-        redirect($page, 'refresh');
+
+        $url = $segment1;
+        if($segment2 != '')
+        {
+            $url .= '/'.$segment2;
+        }
+        if($segment3 != '')
+        {
+            $url .= '/'.$segment3;
+        }
+
+        redirect($url, 'refresh');
 	}
 
 }
