@@ -1,6 +1,6 @@
 <div class="sidebar-right">
 
-    <h3 class="clean">Ultimele Stiri</h3>
+    <h3 class="clean"> Ultimele Stiri</h3>
 
     <ul class="clean">
 
@@ -30,8 +30,7 @@
 
     </ul>
 
-    <h4 class="clean">Vezi toate stirile</h4>
-
+        <h4 class="clean"><a href="#">Vezi toate stirile</a></h4>
 </div>
 
 <div class="clearfix"></div>

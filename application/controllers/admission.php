@@ -42,6 +42,8 @@ class Admission extends Fils_Layout_Controller
     public function master()
     {
         $this->add_view('admission/master');
+//        $this->add_view('news_sidebar');
+
         $this->render();
     }
     public function doctorate()

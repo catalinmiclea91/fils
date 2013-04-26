@@ -80,8 +80,15 @@
 
 <!-- Le JS -->
 <script src="/assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.blueberry.js" type="text/javascript"></script>
 <script src="/assets/js/jquery.components.js" type="text/javascript"></script>
 <script src="/assets/js/custom.js" type="text/javascript"></script>
+
+<script>
+    $(window).load(function() {
+        $('.blueberry').blueberry();
+    });
+</script>
 
 </body>
 </html>

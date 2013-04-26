@@ -9,6 +9,8 @@
     <meta name="description" content="">
     <title></title>
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/blueberry.css" />
+
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
     <!-- schimba asta -->

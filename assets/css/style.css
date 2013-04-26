@@ -63,6 +63,7 @@
 */
 
 /* icons
+http://www.google.ro/imgres?imgurl=http://semlabs.co.uk/assets/img/content/web_design_icon_pack01.png&imgrefurl=http://semlabs.co.uk/journal/free-web-design-icon-set&h=580&w=520&sz=55&tbnid=E5FORtvoB5mApM:&tbnh=90&tbnw=81&zoom=1&usg=__Pp7f4hlbt6e7DQt_lzVO_w3Ssb8=&docid=_RzGJBk_JlAFVM&hl=ro&sa=X&ei=BaJ5UdmQFMmSO5ipgNAP&ved=0CC8Q9QEwAA&dur=454
 *******************************************************************************************************/
 
 .icon{margin: 0 auto; padding: 0; display: block; background-repeat: no-repeat;}
@@ -71,6 +72,13 @@
     width: 20px;
     height: 20px;
     background: url('../images/icons/icon_pack_01.png') 338px -11px;
+}
+
+.icon-yellow-bulb{
+    width: 16px;
+    height: 15px;
+    background: url('../images/icons/icon_pack_01.png') -45px -44px;
+    margin-top: 4px;
 }
 /* ends icons
 *******************************************************************************************************/
@@ -591,36 +599,13 @@ a { text-decoration: none; color:inherit; }
 
 /* css for news sidebar
 ************************/
-.content-wrapper .sidebar-right{
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid #ececec;
-    float: right;
-    display: block;
-    width: 300px;
-}
-
-.sidebar-right h3{ height: 40px;
-    line-height: 40px;
-    background-color: #870D27;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center; }
-
-.sidebar-right ul{  }
-.sidebar-right li{ padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-
-.sidebar-right .news-title{  }
-.sidebar-right p{}
-.sidebar-right span{ font-family: 'Asap', sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    padding-left: 5px;
-    color: #870D27;
-}
-.sidebar-right h4{  }
+.content-wrapper .sidebar-right{ margin: 0 auto; padding: 0; border: 1px solid #ececec; float: right; display: block; width: 300px;}
+.sidebar-right h3{ height: 40px; line-height: 40px; background-color: #870D27; color: white; font-family: 'Open Sans', sans-serif; text-align: center; }
+.sidebar-right li{ margin-left: 10px; margin-right: 10px; padding-top: 15px; padding-bottom: 5px; border-bottom: 1px solid #ececec; }
+.sidebar-right .news-title{ color: black; }
+.sidebar-right span{ font-family: 'Asap', sans-serif; font-size: 14px; font-style: italic; padding-left: 5px; color: #870D27;}
+.sidebar-right span:hover{ color: #4184CC; }
+.sidebar-right h4{ padding-top: 10px; padding-left: 10px; padding-bottom: 10px; padding-right: 10px; font-family: 'Roboto Condensed Light', sans-serif; text-align: center; color: #870D27;}
+.sidebar-right a:hover{ color: #4184CC; }
 /* ends css for news sidebar
 ************************/
