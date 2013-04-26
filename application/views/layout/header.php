@@ -50,11 +50,11 @@
             <!-- menu -->
             <div id="header">
                 <!-- logo -->
-                <div id="logo"><a href="index.html"><img src="assets/images/fils_logo.png" alt="logo" /></a></div>
+                <div id="logo"><a href="/"><img src="/assets/images/fils_logo.png" alt="logo" /></a></div>
                 <!-- logo end -->
                 <!-- main menu -->
                 <ul id="mainmenu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
 
                     <li>
                         <a href="/admission/admission"><?= lang('admission');?></a>

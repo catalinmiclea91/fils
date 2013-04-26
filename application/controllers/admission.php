@@ -34,7 +34,9 @@ class Admission extends Fils_Layout_Controller
     /*Submenu functions*/
     public function licence()
     {
-        $this->add_view('admission/licence');
+        $data['text'] = 'unu';
+
+        $this->add_view('admission/licence', $data);
         $this->render();
     }
     public function master()

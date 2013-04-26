@@ -1,3 +1,81 @@
+/**
+    Font
+*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('./font/open-sans-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('./font/open-sans.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('./font/open-sans-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('./font/open-sans-extrabold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url('./font/roboto-condensed-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url('./font/roboto-condensed-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Condensed Light Italic';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url('./font/roboto-condensed-light-italic.woff') format('woff');
+}
+
+/* font-family: 'Asap', sans-serif; */
+@font-face{
+    font-family:'Asap';
+    font-style:normal;
+    font-weight:400;
+    src:local('Asap'),local('Asap-Regular'),url('./font/asap.woff') format('woff');
+}
+@font-face{
+    font-family:'Asap Italic';
+    font-style:italic;
+    font-weight:400;
+    src:local('Asap Italic'),local('Asap-Italic'),url('./font/asap-italic.woff') format('woff');
+}
+/**
+    ends font
+*/
+
+/* icons
+*******************************************************************************************************/
+
+.icon{margin: 0 auto; padding: 0; display: block; background-repeat: no-repeat;}
+
+.icon-right-arrow{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/icon_pack_01.png') 338px -11px;
+}
+/* ends icons
+*******************************************************************************************************/
+
+
 /**************************************************************************************************************************************************************
                                                                 Header MENU
 *************************************************************************************************************************************************************
@@ -506,3 +584,43 @@ ol, ul { list-style: none;}
 
 
 .container_full .content-wrapper{ margin: 0 auto; padding-left: 10px; padding-right: 10px; margin-top: 20px;}
+
+/* Generic */
+.clean{ margin: 0 auto; padding: 0; border: none; }
+a { text-decoration: none; color:inherit; }
+
+/* css for news sidebar
+************************/
+.content-wrapper .sidebar-right{
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #ececec;
+    float: right;
+    display: block;
+    width: 300px;
+}
+
+.sidebar-right h3{ height: 40px;
+    line-height: 40px;
+    background-color: #870D27;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; }
+
+.sidebar-right ul{  }
+.sidebar-right li{ padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.sidebar-right .news-title{  }
+.sidebar-right p{}
+.sidebar-right span{ font-family: 'Asap', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 5px;
+    color: #870D27;
+}
+.sidebar-right h4{  }
+/* ends css for news sidebar
+************************/
