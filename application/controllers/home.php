@@ -27,8 +27,9 @@ class Home extends Fils_Layout_Controller
 	 */
 	public function index()
 	{
-		$this->add_view('home');
-        $this->add_view('news_sidebar');
+        $data['sidebar'] = $this->load->view('news_sidebar', '', true);
+		$this->add_view('home', $data);
+
 		$this->render();
 	}
 

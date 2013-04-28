@@ -50,6 +50,7 @@
 
 				//get height and width of initial slide image and calculate size ratio
 				var imgHeight = slides.eq(current).find('img').height();
+                    imgHeight = 405;
 				var imgWidth = slides.eq(current).find('img').width();
 				var imgRatio = imgWidth/imgHeight;
 

@@ -79,6 +79,7 @@ http://www.google.ro/imgres?imgurl=http://semlabs.co.uk/assets/img/content/web_d
     height: 15px;
     background: url('../images/icons/icon_pack_01.png') -45px -44px;
     margin-top: 4px;
+}
 .icon-pdf{
     width:16px;
     height:16px;
@@ -701,7 +702,7 @@ a { text-decoration: none; color:inherit; }
 .timeline-list{
     display:block;
     margin:auto;
-    padding: 0px;
+    padding: 0;
 }
 
 .timeline-list-item{
@@ -710,3 +711,31 @@ a { text-decoration: none; color:inherit; }
 }
 /*end css for addmission  pages
 ************************/
+
+/* css for home page
+***/
+.content-wrapper .home-description{ margin: 0 auto;
+    padding: 0;
+    outline: 0;
+    color: #870D27;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px; }
+.content-wrapper .home-text{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    color: black;
+    line-height: 20px;
+    font-size: 17px;
+    border-top: 1px solid #ececec;
+    widtH: 900px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+
+/* ends css for home page
+***/
