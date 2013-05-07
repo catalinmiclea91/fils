@@ -804,3 +804,63 @@ a { text-decoration: none; color:inherit; }
 .content-wrapper .education-main .ed-main .artefacts a { font-style: italic; }
 .content-wrapper .education-main .ed-main .artefacts a:hover{ color: rgb(86, 134, 183); }
 .content-wrapper .education-main .ed-main .artefacts a:active{ color: #870D27; }
+/* ends css for education main page
+***/
+
+
+/* css for students main page
+***/
+.content-wrapper .students{ width: 100%;
+    display: inline-block;
+    text-align: center; }
+.content-wrapper .students .students-item{
+    border: 3px ridge #ececec;
+    border-bottom: 2px ridge #ececec;
+    border-top: 2px ridge #ececec;
+    width: 460px;
+    margin: 20px 12px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+.content-wrapper .students .students-item img{
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 454px;
+    height: 130px;
+}
+
+
+.content-wrapper .students .item-description{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content-wrapper .students .item-description h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+.content-wrapper .students .item-description p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+}
+
+/*schedule
+internships-abroad
+internships
+personal-page
+accommodation
+ong
+foreign-students
+*/
+/* ends css for students main page
+***/
