@@ -27,7 +27,7 @@ class Education extends Fils_Layout_Controller
      */
     public function index()
     {
-        $this->add_view('education');
+        $this->add_view('education/education');
         $this->render();
     }
 

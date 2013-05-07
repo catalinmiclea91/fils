@@ -98,6 +98,28 @@ http://www.google.ro/imgres?imgurl=http://semlabs.co.uk/assets/img/content/web_d
     background: url('../images/icons/excel.gif');
 
 }
+
+.icon-english-20{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/english-20x20.png'); }
+
+.icon-deutsch-20{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/deutsch-20x20.png');
+}
+.icon-french-20{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/french-20x20.jpg');
+}
+
+.icon-paper-gray{
+    width: 17px;
+    height: 16px;
+    background: url('../images/icons/icon_pack_01.png') -459px -12px;
+}
 /* ends icons
 *******************************************************************************************************/
 
@@ -739,3 +761,46 @@ a { text-decoration: none; color:inherit; }
 
 /* ends css for home page
 ***/
+
+/* css for education main page
+***/
+.content-wrapper .education-main{  }
+.content-wrapper .education-main .ed-main-text{ float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.content-wrapper .education-main .ed-main-text h2{ font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter; }
+.content-wrapper .education-main .ed-main-licenta{  }
+.content-wrapper .education-main .ed-main-master{  }
+.content-wrapper .education-main .ed-main-doctorat{  }
+.content-wrapper .education-main .ed-main{ display: block;
+    float: left;
+    widtH: 300px;
+    margin: 0px 13px;
+    text-align: center; }
+.content-wrapper .education-main .ed-main .ed-main-title{ font-family: 'Open Sans', sanss-serif;
+    font-size: 23px;
+    color: #870D27;
+    padding-bottom: 15px; }
+
+
+.content-wrapper .education-main .ed-main ul{ margin-left: 20px; }
+.content-wrapper .education-main .ed-main ul li{ margin-bottom: 10px; min-height: 200px; }
+.content-wrapper .education-main .ed-main ul li i{ float: left; }
+.content-wrapper .education-main .ed-main ul li h4{ float: left;
+    font-family: 'Asap', sans-serif;
+    color: #777777;
+    font-size: 18px; }
+.content-wrapper .education-main .ed-main ul .language{ padding-bottom: 10px; }
+.content-wrapper .education-main .ed-main ul .language i{ margin-right: 10px; }
+
+.content-wrapper .education-main .ed-main .artefacts{ margin-left: 20px; }
+.content-wrapper .education-main .ed-main .artefacts i{ margin-right: 10px; }
+.content-wrapper .education-main .ed-main .artefacts p{ float: left; padding-bottom: 10px; text-align: left; width: 100%; }
+.content-wrapper .education-main .ed-main .artefacts a { font-style: italic; }
+.content-wrapper .education-main .ed-main .artefacts a:hover{ color: rgb(86, 134, 183); }
+.content-wrapper .education-main .ed-main .artefacts a:active{ color: #870D27; }

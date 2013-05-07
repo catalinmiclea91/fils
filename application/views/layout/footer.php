@@ -90,5 +90,11 @@
     });
 </script>
 
+<div style="font-family: 'Open Sans', sans-serif; font-size: 18px; text-align: center;">
+    <p><b>Memory used</b>: {memory_usage}</p>
+    <p><b>Execution time</b>: {elapsed_time} seconds</p>
+    <div class="clearfix"></div>
+</div>
+
 </body>
 </html>

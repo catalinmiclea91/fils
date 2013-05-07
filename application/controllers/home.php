@@ -30,12 +30,14 @@ class Home extends Fils_Layout_Controller
         $data['sidebar'] = $this->load->view('news_sidebar', '', true);
 		$this->add_view('home', $data);
 
+        $this->title = 'Home fils';
+        $this->meta_description = 'The meta description of this particular page!';
+
 		$this->render();
 	}
 
 
 
 }
-
 /* End of file home.php */
 /* Location: ./application/controllers/home.php */

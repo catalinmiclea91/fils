@@ -4,6 +4,8 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 {
 	private $data = array();
 	private $views = array();
+    protected $title;
+    protected $meta_description;
 
 	public function __construct()
 	{
@@ -65,10 +67,13 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 		$this->data[ $viewname ] = $data;
 	}
 
-
 	public function render()
 	{
-		$this->load->view('layout/head');
+        $head_data = array();
+        $head_data['title'] = $this->title;
+        $head_data['meta_description'] = $this->meta_description;
+
+		$this->load->view('layout/head', $head_data);
 		$this->load->view('layout/header');
 
 		foreach($this->views as $key => $value)
@@ -86,6 +91,30 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 
 		$this->load->view('layout/footer');
 	}
+
+    public function admin_render()
+    {
+        $head_data = array();
+        $head_data['title'] = $this->title;
+        $head_data['meta_description'] = $this->meta_description;
+
+        $this->load->view('spot/layout/header');
+
+        foreach($this->views as $key => $value)
+        {
+            if( !empty($this->data[$value]) && $this->data[$value] != null )
+            {
+                //var_dump($this->data[$value]);
+                $this->load->view($value, $this->data[$value]);
+            }
+            else
+            {
+                $this->load->view($value);
+            }
+        }
+
+        $this->load->view('spot/layout/footer');
+    }
 
 }
 
