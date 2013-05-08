@@ -807,6 +807,99 @@ a { text-decoration: none; color:inherit; }
 /* ends css for education main page
 ***/
 
+/* css for schedule page
+***/
+.content-wrapper .schedule{
+
+}
+
+.content-wrapper .schedule h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    color: #870D27;
+    text-align: center;
+}
+
+.content-wrapper .schedule .sch-content{
+    border-top: 1px solid #ececec;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+.schedule .sch-content .sch-utils{
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+.schedule .sch-content .sch-utils ul{}
+.schedule .sch-content .sch-utils ul li{ padding-top: 5px;
+    padding-bottom: 5px; }
+.schedule .sch-content .sch-utils ul li i{ float: left;
+    padding-right: 10px;
+    background-repeat: no-repeat; }
+.schedule .sch-content .sch-utils ul li a{
+    font-family: 'Open Sans', sans-serif;
+    color: #4184CC;
+
+}
+.schedule .sch-content .sch-utils ul li a:hover{
+    color: #870D27;
+}
+.schedule .sch-content .sch-studies{
+    border-top: 1px solid #ececec;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.schedule .sch-content .sch-studies h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 29px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.schedule .sch-content .sch-studies ul{
+    text-align: left;
+}
+.schedule .sch-content .sch-studies .alfa{
+    float: left;
+}
+.schedule .sch-content .sch-studies .beta{
+    float: left;
+    padding-left: 134px;
+}
+.schedule .sch-content .sch-studies .omega{
+    float: right;
+}
+
+.schedule .sch-content .sch-studies ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.schedule .sch-content .sch-studies ul li i{
+    float: left;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+.schedule .sch-content .sch-studies ul li a{
+    font-family: 'Open Sans', sans-serif;
+    color: #4184CC;
+}
+.schedule .sch-content .sch-studies ul li a:hover{
+    color: #870D27;
+}
+
+.schedule .sch-content .sch-studies .title{ font-size: 20px;
+    padding-left: 26px; }
+/* ends css for schedule page
+***/
+
 
 /* css for students main page
 ***/

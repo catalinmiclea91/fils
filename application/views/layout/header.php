@@ -76,7 +76,7 @@
                     <li>
                         <a href="/students"><?= lang('students');?></a>
                         <ul>
-                            <li><a href=""><?= lang('schedule');?></a></li>
+                            <li><a href="/students/schedule"><?= lang('schedule');?></a></li>
                             <li><a href=""><?= lang('foreign-internships');?></a></li>
                             <li><a href=""><?= lang('practical-internships');?></a></li>
                             <li><a href=""><?= lang('personal-page');?></a></li>
