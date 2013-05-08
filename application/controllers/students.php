@@ -30,6 +30,15 @@ class Students extends Fils_Layout_Controller
         $this->add_view('students');
         $this->render();
     }
+
+
+    public function schedule()
+    {
+        $this->add_view('students/schedule');
+        $this->render();
+    }
+
+
 }
 
 /* End of file home.php */

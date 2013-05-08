@@ -76,7 +76,7 @@
                     <li>
                         <a href="/students"><?= lang('students');?></a>
                         <ul>
-                            <li><a href=""><?= lang('schedule');?></a></li>
+                            <li><a href="/students/schedule"><?= lang('schedule');?></a></li>
                             <li><a href=""><?= lang('foreign-internships');?></a></li>
                             <li><a href=""><?= lang('practical-internships');?></a></li>
                             <li><a href=""><?= lang('personal-page');?></a></li>
@@ -86,7 +86,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="about" class="active"><?= lang('about-us');?></a>
+                        <a href="/about" class="active"><?= lang('about-us');?></a>
                         <ul>
                             <li><a href="">Link</a></li>
                             <li><a href="">Link</a></li>
@@ -94,7 +94,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="image"><?= lang('image');?></a>
+                        <a href="/image"><?= lang('image');?></a>
                         <ul>
                             <li>
                                 <a href="">Link</a>
