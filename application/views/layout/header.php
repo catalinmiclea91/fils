@@ -66,7 +66,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="education"><?= lang('education');?></a>
+                        <a href="/education"><?= lang('education');?></a>
                         <ul>
                             <li><a href="/education/licence"><?= lang('licence');?></a></li>
                             <li><a href="/education/master"><?= lang('master');?></a></li>
@@ -74,7 +74,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="students"><?= lang('students');?></a>
+                        <a href="/students"><?= lang('students');?></a>
                         <ul>
                             <li><a href=""><?= lang('schedule');?></a></li>
                             <li><a href=""><?= lang('foreign-internships');?></a></li>
@@ -118,7 +118,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="contact"><?= lang('contact');?></a></li>
+                    <li><a href="/contact"><?= lang('contact');?></a></li>
                 </ul>
                 <!-- main menu end -->
                 <!-- search bar -->
