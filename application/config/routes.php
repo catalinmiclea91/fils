@@ -44,7 +44,8 @@ $route["english/(.*)"] = 'functions/setLanguage/english/$1';
 $route["french/(.*)"] = 'functions/setLanguage/french/$1';
 $route["deutsch/(.*)"] = 'functions/setLanguage/deutsch/$1';
 $route["romanian/(.*)"] = 'functions/setLanguage/romanian/$1';
-//$route["view/(.*)"] = 'webpages/view/$1';
+
+$route["students/foreign-interships"] = 'students/foreign_interships';
 
 
 

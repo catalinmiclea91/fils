@@ -1,8 +1,8 @@
 <div class="clean schedule">
 
-    <h2 class="clean">Calendar | 2012 - 2013</h2>
+    <h2 class="clean students-h2-title">Calendar | 2012 - 2013</h2>
 
-    <div class="clean sch-content">
+    <div class="clean sch-content students-content-wrapper">
 
         <div class="clean sch-utils">
             <ul class="clean">

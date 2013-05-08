@@ -813,22 +813,6 @@ a { text-decoration: none; color:inherit; }
 
 }
 
-.content-wrapper .schedule h2{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    height: 45px;
-    line-height: 45px;
-    color: #870D27;
-    text-align: center;
-}
-
-.content-wrapper .schedule .sch-content{
-    border-top: 1px solid #ececec;
-    margin-top: 25px;
-    padding-top: 15px;
-}
-
 .schedule .sch-content .sch-utils{
     padding-left: 50px;
     margin-bottom: 15px;
@@ -900,12 +884,46 @@ a { text-decoration: none; color:inherit; }
 /* ends css for schedule page
 ***/
 
+/* ends css for schedule page
+***/
+.content-wrapper .foreign-interships{  }
+.foreign-interships .description{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    width: 100%;
+}
+
+.foreign-interships .description .fi-scolarships{
+
+}
+
+
+
+/* css for foreign-interships.php page
+***/
 
 /* css for students main page
 ***/
 .content-wrapper .students{ width: 100%;
     display: inline-block;
     text-align: center; }
+
+.students-h2-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    color: #870D27;
+    text-align: center;
+}
+
+.students-content-wrapper{
+    border-top: 1px solid #ececec;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
 .content-wrapper .students .students-item{
     border: 3px ridge #ececec;
     border-bottom: 2px ridge #ececec;

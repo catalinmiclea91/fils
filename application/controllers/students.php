@@ -38,6 +38,11 @@ class Students extends Fils_Layout_Controller
         $this->render();
     }
 
+    public function foreign_interships()
+    {
+        $this->add_view('students/foreign-interships');
+        $this->render();
+    }
 
 }
 
