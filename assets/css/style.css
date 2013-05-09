@@ -1,6 +1,5 @@
-/**
-    Font
-*/
+/***********************************************    fonts    ****************************************************/
+/* Open sans	     >> content */
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -25,7 +24,6 @@
     font-weight: 800;
     src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('./font/open-sans-extrabold.woff') format('woff');
 }
-
 @font-face {
     font-family: 'Roboto Condensed Light';
     font-style: normal;
@@ -44,8 +42,6 @@
     font-weight: 300;
     src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url('./font/roboto-condensed-light-italic.woff') format('woff');
 }
-
-/* font-family: 'Asap', sans-serif; */
 @font-face{
     font-family:'Asap';
     font-style:normal;
@@ -58,9 +54,92 @@
     font-weight:400;
     src:local('Asap Italic'),local('Asap-Italic'),url('./font/asap-italic.woff') format('woff');
 }
-/**
-    ends font
+
+/* Istok Web  		 >> link */
+@font-face {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Istok Web Regular'), local('IstokWeb-Regular'), url('./font/istok-web-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Istok Web Bold'), local('IstokWeb-Bold'), url('./font/istok-web-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Istok Web Italic'), local('IstokWeb-Italic'), url('./font/istok-web-italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Istok Web Bold Italic'), local('IstokWeb-BoldItalic'), url('./font/istok-web-bold-italic.woff') format('woff');
+}
+
+/* PT sans    		 >> title / heading / menu */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'), local('PTSans-Regular'), url('./font/pt-sans.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Sans Bold'), local('PTSans-Bold'), url('./font/pt-sans-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('PT Sans Italic'), local('PTSans-Italic'), url('./font/pt-sans-italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('./font/pt-sans-bold-italic.woff') format('woff');
+}
+
+/* Ubuntu Mono		 >> input */
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url('./font/ubuntu-mono.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url('./font/ubuntu-mono-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url('./font/ubuntu-mono-italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'), url('./font/ubuntu-mono-bold-italic.woff') format('woff');
+}
+/***********************************************    end fonts    ****************************************************/
+/*
+Open sans	     >> content
+Ubuntu Mono		 >> input
+PT sans    		 >> title / heading / menu
+Istok Web  		 >> link
 */
+
 
 /* icons
 http://www.google.ro/imgres?imgurl=http://semlabs.co.uk/assets/img/content/web_design_icon_pack01.png&imgrefurl=http://semlabs.co.uk/journal/free-web-design-icon-set&h=580&w=520&sz=55&tbnid=E5FORtvoB5mApM:&tbnh=90&tbnw=81&zoom=1&usg=__Pp7f4hlbt6e7DQt_lzVO_w3Ssb8=&docid=_RzGJBk_JlAFVM&hl=ro&sa=X&ei=BaJ5UdmQFMmSO5ipgNAP&ved=0CC8Q9QEwAA&dur=454
@@ -892,13 +971,45 @@ a { text-decoration: none; color:inherit; }
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .foreign-interships .description .fi-scolarships{
 
 }
 
+.foreign-interships .fi-tab{
+    border-top: 1px solid #ececec;
+    width: 90%;
+    padding: 20px 2%;
+    text-align: center;
+    float: left;
+}
 
+.foreign-interships .fi-tab > h4{
+    color: #870D27;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.foreign-interships .fi-tab .internship{
+    text-align: left;
+}
+
+.foreign-interships .fi-tab .internship a{
+    font-family: 'Asap', sans-serif;
+    color: #4184CC;
+    font-size: 19px;
+}
+
+.foreign-interships .fi-tab .internship p{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding-left: 15px;
+    border-left: 3px ridge #ececec;
+}
 
 /* css for foreign-interships.php page
 ***/
@@ -966,6 +1077,8 @@ a { text-decoration: none; color:inherit; }
     text-align: justify;
     padding-right: 15px;
 }
+
+
 
 /*schedule
 internships-abroad
