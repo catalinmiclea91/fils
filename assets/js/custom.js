@@ -1,4 +1,39 @@
+
 $(document).ready(function() {
+    $('#timeline-2013').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2013').toggle('slow');
+    });
+
+    $('#timeline-2012').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2012').toggle('slow');
+    });
+
+    $('#timeline-2011').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2011').toggle('slow');
+    });
+
+    $('#timeline-2010').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2010').toggle('slow');
+    });
+
+    $('#timeline-2009').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2009').toggle('slow');
+    });
+
+    $('#timeline-2008').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#2008').toggle('slow');
+    });
+
+    $('#timeline-default-context').click(function() {
+        $('.line-wrapper').hide('slow', function() {} );
+        $('#default-context').toggle('slow');
+    });
 
     /*Menu Hover Color*/
     $("#mainmenu ul").mouseenter(function() {
