@@ -7,6 +7,8 @@ class Fils_Layout_Controller extends Fils_Base_Controller
     protected $title;
     protected $meta_description;
 
+    public $admin_is_logged;
+
 	public function __construct()
 	{
 		parent::__construct();
@@ -64,7 +66,7 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 
 	private function setData($viewname, $data)
 	{
-		$this->data[ $viewname ] = $data;
+		$this->data[ $viewname ][ key($data) ] = $data[ key($data) ];
 	}
 
 	public function render()
@@ -78,11 +80,11 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 
 		foreach($this->views as $key => $value)
 		{
-			if( !empty($this->data[$value]) && $this->data[$value] != null )
-			{
-				//var_dump($this->data[$value]);
-				$this->load->view($value, $this->data[$value]);
-			}
+            if( !empty($this->data[$value]) && $this->data[$value] != null )
+            {
+                $data_value = $this->data[$value];
+                $this->load->view($value, $this->data[$value]);
+            }
 			else
 			{
 				$this->load->view($value);
@@ -94,17 +96,20 @@ class Fils_Layout_Controller extends Fils_Base_Controller
 
     public function admin_render()
     {
+        $this->load->library('form_validation');
+
         $head_data = array();
         $head_data['title'] = $this->title;
         $head_data['meta_description'] = $this->meta_description;
+        $head_data['admin_is_logged'] = $this->admin_is_logged;
 
-        $this->load->view('spot/layout/header');
+        $this->load->view('spot/layout/header', $head_data);
 
         foreach($this->views as $key => $value)
         {
             if( !empty($this->data[$value]) && $this->data[$value] != null )
             {
-                //var_dump($this->data[$value]);
+                $data_value = $this->data[$value];
                 $this->load->view($value, $this->data[$value]);
             }
             else

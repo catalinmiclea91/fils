@@ -48,10 +48,11 @@ $route["romanian/(.*)"] = 'functions/setLanguage/romanian/$1';
 $route["students/foreign-interships"] = 'students/foreign_interships';
 
 
+/****************** Admin *******************/
+$route['admin-login'] = "spot/admin/login";
+$route['admin-logout'] = "spot/admin/logout";
 
 $route['default_controller'] = "home";
 $route['404_override'] = '';
-
-
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
