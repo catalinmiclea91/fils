@@ -3,6 +3,10 @@
 class Fils_Base_Controller extends CI_Controller
 {
 
+    protected $load_session = true;
+    protected $load_helper_url = true;
+    public $load_helper_language = true;
+
     public $language;
 
 	public function __construct()
@@ -23,12 +27,13 @@ class Fils_Base_Controller extends CI_Controller
 		$this->load->library('session');
 		$this->load->helper('url');
 
-        $this->_switchLanguage();   // set the language
-
-		$this->config->set_item('language', $this->language);
-
-		$this->load->helper('language');
-		$this->lang->load('generic');
+        if($this->load_helper_language)
+        {
+            $this->_switchLanguage();   // set the language
+            $this->config->set_item('language', $this->language);
+            $this->load->helper('language');
+            $this->lang->load('generic');
+        }
 
 	}
 

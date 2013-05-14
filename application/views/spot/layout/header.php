@@ -1,5 +1,6 @@
 <?php
-//$no_visible_elements=true;
+    $no_visible_elements= !$admin_is_logged;
+    $admin_username = $this->session->userdata('username');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,13 +69,13 @@
                 <!-- user dropdown starts -->
                 <div class="btn-group pull-right" >
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-user"></i><span class="hidden-phone"> The admin name..</span>
+                        <i class="icon-user"></i><span class="hidden-phone"> <?= ucfirst($admin_username); ?></span>
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Profile</a></li>
                         <li class="divider"></li>
-                        <li><a href="login.html">Logout</a></li>
+                        <li><a href="/admin-logout">Logout</a></li>
                     </ul>
                 </div>
                 <!-- user dropdown ends -->
