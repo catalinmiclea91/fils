@@ -27,7 +27,7 @@ class Students extends Fils_Layout_Controller
      */
     public function index()
     {
-        $this->add_view('students');
+        $this->add_view('students/students');
         $this->render();
     }
 
@@ -38,9 +38,39 @@ class Students extends Fils_Layout_Controller
         $this->render();
     }
 
-    public function foreign_interships()
+    public function foreign_internships()
     {
-        $this->add_view('students/foreign-interships');
+        $this->add_view('students/foreign-internships');
+        $this->render();
+    }
+
+    public function practical_internships()
+    {
+        $this->add_view('students/practical-internships');
+        $this->render();
+    }
+
+    public function personal_page()
+    {
+        $this->add_view('students/personal-page');
+        $this->render();
+    }
+
+    public function accommodation()
+    {
+        $this->add_view('students/accommodation');
+        $this->render();
+    }
+
+    public function student_organizations()
+    {
+        $this->add_view('students/student-organizations');
+        $this->render();
+    }
+
+    public function foreign_students()
+    {
+        $this->add_view('students/foreign-students');
         $this->render();
     }
 

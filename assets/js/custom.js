@@ -1,38 +1,69 @@
 
 $(document).ready(function() {
+    var year=0;
+
     $('#timeline-2013').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2013').toggle('slow');
+        if(year==2013){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2013').toggle(600);
+        year=2013;
+        }
     });
 
+
     $('#timeline-2012').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2012').toggle('slow');
+        if(year==2012){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2012').toggle(600);
+        year=2012;
+        }
     });
 
     $('#timeline-2011').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2011').toggle('slow');
+        if(year==2011){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2011').toggle(600);
+        year=2011;
+        }
     });
 
     $('#timeline-2010').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2010').toggle('slow');
+        if(year==2010){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2010').toggle(600);
+        year=2010;
+        }
     });
 
     $('#timeline-2009').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2009').toggle('slow');
+        if(year==2009){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2009').toggle(600);
+        year=2009;
+        }
     });
 
     $('#timeline-2008').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#2008').toggle('slow');
+        if(year==2008){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#2008').toggle(600);
+        year=2008;
+        }
     });
 
     $('#timeline-default-context').click(function() {
-        $('.line-wrapper').hide('slow', function() {} );
-        $('#default-context').toggle('slow');
+        if(year==0){}
+        else{
+        $('.line-wrapper').hide(600, function() {} );
+        $('#default-context').toggle(600);
+            year=0;
+        }
     });
 
     /*Menu Hover Color*/
@@ -41,6 +72,8 @@ $(document).ready(function() {
     }).mouseleave(function() {
         $(this).parent().find("a").removeClass("hover");
     });
+
+
 
     //Side Navigation
     $(".side_navigation").treeview({

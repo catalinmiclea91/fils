@@ -30,6 +30,19 @@ $lang['accommodation'] = "Unterkunft";
 $lang['student-organizations'] = "Studentische organisationen";
 $lang['foreign-students'] = "Ausländische studierende";
 
+/*About us*/
 $lang['about-us'] = "Über uns";
+$lang['departments'] = "Abteilungen";
+$lang['academic-year'] = "Akademisches Jahr";
+$lang['secretariat'] = "Sekretariat";
+$lang['structure'] = "Gliederung";
+$lang['administration'] = "Verwaltung";
+
+/*Image*/
 $lang['image'] = "Bild";
+$lang['alumni'] = "Alumni";
+$lang['partners'] = "Partners";
+$lang['photo-gallery'] = "Fotogalerie";
+
+
 $lang['contact'] = "Kontakt";

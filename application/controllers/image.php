@@ -27,7 +27,25 @@ class Image extends Fils_Layout_Controller
      */
     public function index()
     {
-        $this->add_view('image');
+        $this->add_view('image/image');
+        $this->render();
+    }
+
+    public function alumni()
+    {
+        $this->add_view('image/alumni');
+        $this->render();
+    }
+
+    public function partners()
+    {
+        $this->add_view('image/partners');
+        $this->render();
+    }
+
+    public function photo_gallery()
+    {
+        $this->add_view('image/photo-gallery');
         $this->render();
     }
 }

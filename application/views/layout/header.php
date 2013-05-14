@@ -54,7 +54,7 @@
                 <!-- logo end -->
                 <!-- main menu -->
                 <ul id="mainmenu">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/"><img class="home-icon" src="/assets/images/icons/home.jpg" alt="logo" /></a></li>
 
                     <li>
                         <a href="/admission/admission"><?= lang('admission');?></a>
@@ -77,45 +77,30 @@
                         <a href="/students"><?= lang('students');?></a>
                         <ul>
                             <li><a href="/students/schedule"><?= lang('schedule');?></a></li>
-                            <li><a href="/students/foreign-interships"><?= lang('foreign-internships');?></a></li>
-                            <li><a href=""><?= lang('practical-internships');?></a></li>
-                            <li><a href=""><?= lang('personal-page');?></a></li>
-                            <li><a href=""><?= lang('accommodation');?></a></li>
-                            <li><a href=""><?= lang('student-organizations');?></a></li>
-                            <li><a href=""><?= lang('foreign-students');?></a></li>
+                            <li><a href="/students/foreign_internships"><?= lang('foreign-internships');?></a></li>
+                            <li><a href="/students/practical_internships"><?= lang('practical-internships');?></a></li>
+                            <li><a href="/students/personal_page"><?= lang('personal-page');?></a></li>
+                            <li><a href="/students/accommodation"><?= lang('accommodation');?></a></li>
+                            <li><a href="/students/student_organizations"><?= lang('student-organizations');?></a></li>
+                            <li><a href="/students/foreign_students"><?= lang('foreign-students');?></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/about" class="active"><?= lang('about-us');?></a>
+                        <a href="/about"><?= lang('about-us');?></a>
                         <ul>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
-                            <li><a href="">Link</a></li>
+                            <li><a href="/about/departments"><?= lang('departments');?></a></li>
+                            <li><a href="/about/academic_year"><?= lang('academic-year');?></a></li>
+                            <li><a href="/about/secretariat"><?= lang('secretariat');?></a></li>
+                            <li><a href="/about/structure"><?= lang('structure');?></a></li>
+                            <li><a href="/about/administration"><?= lang('administration');?></a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="/image"><?= lang('image');?></a>
                         <ul>
-                            <li>
-                                <a href="">Link</a>
-                            </li>
-                            <li>
-                                <a href="">Sub Meniu</a>
-                                <ul>
-                                    <li><a href="">Link 1</a></li>
-                                    <li><a href="">Link 2</a></li>
-                                    <li><a href="">Link 3</a></li>
-                                    <li>
-                                        <a href="#">Sub sub meniu</a>
-                                        <ul>
-                                            <li><a href="">Link 1</a></li>
-                                            <li><a href="">Link 2</a></li>
-                                            <li><a href="">Link 3</a></li>
-                                            <li><a href="">Link 4</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
+                            <li><a href="/image/alumni"><?= lang('alumni');?></a></li>
+                            <li><a href="/image/partners"><?= lang('partners');?></a></li>
+                            <li><a href="/image/photo_gallery"><?= lang('photo-gallery');?></a></li>
                         </ul>
                     </li>
                     <li><a href="/contact"><?= lang('contact');?></a></li>

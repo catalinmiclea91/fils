@@ -27,7 +27,37 @@ class About extends Fils_Layout_Controller
      */
     public function index()
     {
-        $this->add_view('about');
+        $this->add_view('about/about');
+        $this->render();
+    }
+
+    public function departments()
+    {
+        $this->add_view('about/departments');
+        $this->render();
+    }
+
+    public function academic_year()
+    {
+        $this->add_view('about/academic-year');
+        $this->render();
+    }
+
+    public function secretariat()
+    {
+        $this->add_view('about/secretariat');
+        $this->render();
+    }
+
+    public function structure()
+    {
+        $this->add_view('about/structure');
+        $this->render();
+    }
+
+    public function administration()
+    {
+        $this->add_view('about/administration');
         $this->render();
     }
 }
