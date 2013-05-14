@@ -96,9 +96,12 @@ class Admin extends Fils_Layout_Controller
     private function do_login($username, $password)
     {
         $select = 'email';
+        $password = sha1($password);    // password comes as md5(password) from javascript
         $where = array('username' => $username, 'password' => $password);
+        
         $this->load->model('spot/Admin_model', 'admin');
         $result = $this->admin->get_admin($where, $select);
+
         if(!empty($result) && $result !== null)
         {
             $email = $result[0]['email'];

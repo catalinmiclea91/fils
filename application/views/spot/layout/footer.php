@@ -81,6 +81,8 @@
 <script src="/assets/admin/js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
 <script src="/assets/admin/js/charisma.js"></script>
+<!-- custom script -->
+<script src="/assets/admin/js/custom.js"></script>
 
 </body>
 </html>

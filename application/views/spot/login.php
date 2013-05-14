@@ -9,7 +9,7 @@
         <div class="alert alert-info">
             Please login with your Username and Password.
         </div>
-        <form class="form-horizontal" action="/admin-login" method="post">
+        <form id="admin-login" class="form-horizontal" action="/admin-login" method="post">
             <?php if ( validation_errors() != '' || isset($login_error)):   ?>
             <div class="alert alert-error">
                 <button type="button" class="close" data-dismiss="alert">×</button>
@@ -34,7 +34,10 @@
                 <div class="clearfix"></div>
 
                 <p class="center span5">
+                <button onclick="admin_submit(); return false;" class="btn btn-primary">Login</button>
+                <!--
                     <button type="submit" class="btn btn-primary">Login</button>
+                -->
                 </p>
             </fieldset>
         </form>
