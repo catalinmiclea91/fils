@@ -77,12 +77,13 @@
                         <a href="/students"><?= lang('students');?></a>
                         <ul>
                             <li><a href="/students/schedule"><?= lang('schedule');?></a></li>
-                            <li><a href="/students/foreign_internships"><?= lang('foreign-internships');?></a></li>
-                            <li><a href="/students/practical_internships"><?= lang('practical-internships');?></a></li>
+                            <li><a href="/students/scholarships"><?= lang('scholarships');?></a></li>
                             <li><a href="/students/personal_page"><?= lang('personal-page');?></a></li>
-                            <li><a href="/students/accommodation"><?= lang('accommodation');?></a></li>
-                            <li><a href="/students/student_organizations"><?= lang('student-organizations');?></a></li>
+                            <li><a href="/students/practical_internships"><?= lang('practical-internships');?></a></li>
+                            <li><a href="/students/foreign_internships"><?= lang('foreign-internships');?></a></li>
                             <li><a href="/students/foreign_students"><?= lang('foreign-students');?></a></li>
+                            <li><a href="/students/student_organizations"><?= lang('student-organizations');?></a></li>
+                            <li><a href="/students/accommodation"><?= lang('accommodation');?></a></li>
                         </ul>
                     </li>
                     <li>

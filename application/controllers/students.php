@@ -38,11 +38,20 @@ class Students extends Fils_Layout_Controller
         $this->render();
     }
 
+
+    public function scholarships()
+    {
+        $this->add_view('students/scholarships');
+        $this->render();
+    }
+
+
     public function foreign_internships()
     {
         $this->add_view('students/foreign-internships');
         $this->render();
     }
+
 
     public function practical_internships()
     {
@@ -50,11 +59,13 @@ class Students extends Fils_Layout_Controller
         $this->render();
     }
 
+
     public function personal_page()
     {
         $this->add_view('students/personal-page');
         $this->render();
     }
+
 
     public function accommodation()
     {
@@ -62,11 +73,13 @@ class Students extends Fils_Layout_Controller
         $this->render();
     }
 
+
     public function student_organizations()
     {
         $this->add_view('students/student-organizations');
         $this->render();
     }
+
 
     public function foreign_students()
     {
@@ -75,6 +88,5 @@ class Students extends Fils_Layout_Controller
     }
 
 }
-
 /* End of file home.php */
 /* Location: ./application/controllers/home.php */

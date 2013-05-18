@@ -1,3 +1,8 @@
+/*** C O L O R S
+    #3e5a66
+    #870D27
+***/
+
 /***********************************************    fonts    ****************************************************/
 /* Open sans	     >> content */
 @font-face {
@@ -1047,7 +1052,7 @@ a { text-decoration: none; color:inherit; }
 /* ends css for schedule page
 ***/
 
-/* ends css for schedule page
+/* css for foreign-internships.php page
 ***/
 .content-wrapper .foreign-interships{  }
 .foreign-interships .description{
@@ -1066,7 +1071,7 @@ a { text-decoration: none; color:inherit; }
     width: 90%;
     padding: 20px 2%;
     text-align: center;
-    float: left;
+    /*float: left;*/
 }
 
 .foreign-interships .fi-tab > h4{
@@ -1078,6 +1083,7 @@ a { text-decoration: none; color:inherit; }
 
 .foreign-interships .fi-tab .internship{
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .foreign-interships .fi-tab .internship a{
@@ -1094,7 +1100,7 @@ a { text-decoration: none; color:inherit; }
     border-left: 3px ridge #ececec;
 }
 
-/* css for foreign-internships.php page
+/* ends css for foreign-internships.php page
 ***/
 
 /* css for students main page
@@ -1160,19 +1166,10 @@ a { text-decoration: none; color:inherit; }
     text-align: justify;
     padding-right: 15px;
 }
-
-
-
-/*schedule
-internships-abroad
-internships
-personal-page
-accommodation
-ong
-foreign-students
-*/
 /* ends css for students main page
 ***/
+
+
 .content-wrapper .contact-main
 {
     width:100%;
@@ -1300,3 +1297,162 @@ foreign-students
     -moz-box-shadow:inset -3 -3 -3px rgba(0,0,0, .75);
     box-shadow:inset -3 -3 -3px rgba(0,0,0, .75);
 }
+
+
+
+/****************   css for scholarships    *************/
+.content-wrapper .scholarships{
+
+}
+.content-wrapper .scholarships .image{
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.content-wrapper .scholarships .image img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+}
+
+.content-wrapper .scholarships .image h2{
+    width: 500px;
+    position: relative;
+    top: -100px;
+    left: -179px;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    color: #cccccc;
+    text-shadow: 1px 2px white, -2px -2px #333;
+}
+
+.scholarships .description{}
+
+.scholarships .description h4{
+    font-family: 'Open sans', sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 20px;
+    border-top: 1px solid #ececec;
+    width: 900px;
+    padding: 5px 40px;
+    color: #3e5a66;
+}
+
+.scholarships .categories
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.scholarships .categories h3
+{
+    font-family: 'PT sans', sans-serif;
+    color: #3e5a66;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.scholarships .categories a
+{
+    height: 181px;
+    float: left;
+    padding: 0px 22px;
+}
+
+.scholarships .categories a h5
+{
+    font-family: 'PT sans', sans-serif;
+    font-size: 20px;
+    color: #3e5a66;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.scholarships .categories a img
+{
+    z-index: 0;
+}
+
+.scholarships .categories a:hover > p{
+    display: block;
+}
+
+.scholarships .categories a p
+{
+    display:none;
+    padding: 0px 4px;
+    position: relative;
+    top: -55px;
+    color: white;
+    background: #3e5a66;
+    opacity: 0.8;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    z-index: 9;
+    width: 192px;
+    overflow: hidden;
+}
+
+.scholarships .scholarship{ margin-bottom: 40px; }
+.scholarships .scholarship h3{
+    font-family: 'PT sans', sans-serif;
+    text-align: center;
+    color: #3e5a66;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.scholarships .scholarship p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.scholarships .scholarship .necessary-docs{}
+.scholarships .scholarship .necessary-docs h4{
+    font-family: 'PT sans', sans-serif;
+    color: #3e5a66;
+    font-size: 20px;
+}
+.scholarships .scholarship .necessary-docs ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.scholarships .scholarship .necessary-docs ul li{}
+.scholarships .scholarship .necessary-docs ul li i{
+    float: left;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+}
+.scholarships .scholarship .necessary-docs ul li a{
+    font-family: 'Istok Web', sans-serif;
+}
+
+/****************  ends css for scholarships    *************/
+
+
+
+
+
+
+
+
+
+
+
+/*** C O L O R S
+    #3e5a66 ceva albastru
+    #870D27 ceva visiniu
+***/
+
+/*
+Open sans	     >> content
+Ubuntu Mono		 >> input
+PT sans    		 >> title / heading / menu
+Istok Web  		 >> link
+*/

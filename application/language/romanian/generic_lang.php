@@ -23,6 +23,7 @@ $lang['doctorate'] = "Doctorat";
 /*Students*/
 $lang['students'] = "Studenti";
 $lang['schedule'] = "Orar";
+$lang['scholarships'] = "Burse";
 $lang['foreign-internships'] = "Stagii strainatate";
 $lang['practical-internships'] = "Stagii practice";
 $lang['personal-page'] = "Pagina personala";

@@ -11,21 +11,19 @@
             <h4 class="clean">Tipuri de stagii</h4>
 
             <div class="clean internship">
-                <a class="clean" href="#">Stagii de cunoastere a unei intreprinderi: "Decouverte de l'entreprise"</a>
-                <p class="clean">Printre stagiile de acest gen se remarca cu pregnanta cele organizate la Melle (Franta) acolo unde Asociatia "Roumanie Sud-Deux Sèvres" s-a implicat activ in facilitarea contactului studentilor filierei francofone din anul I cu mediul viata si de lucru francez.
-
-                    Asociatia coordonata de dl. Daniel HUBIERE a reusit, incepand cu anul 1995 sa gaseasca parteneri in acest proiect al carui scop este nu numai cunoasterea unui mediu rofesional francofon, dar si punerea in practica a cunostintelor teoretice si lingvistice capatate dupa primul an de studiu in FILS.
-
-                    Stagiarii sunt gazduiti pe parcursul acestei luni stagiu in familii, membre ale Asociatiei ceea ce asigura o experienta de viata inedita si permite un schimb cultural franco-roman extrem de educativ. Studentii descopera cultura si stilul de viata francez, spiritul de voluntariat specific poporului francez, iar gazdele lor au ocazia de percepe Romania din perspective noi.
-
-                    Iata ecourile stagiilor din septembrie 2008 in presa locala:
-
-                    Articol 1
-                    Articol 2
-                    Aducem multumirile noastre sincere Asociatiei "Roumanie Sud-Deux Sèvres" pentru eforturile depuse in cei aproape 15 ani de parteneriat. Stagiile efectuate la Melle reprezinta momente memorabile din viata multor absolventi ai filierei francofone.
+                <i class="icon-pdf icon doc-image"></i>
+                <a class="clean" href="#" style="margin-left: 20px;">Stagii de cunoastere a unei intreprinderi: "Decouverte de l'entreprise"</a>
+                <p class="clean">
+                    Stagii de 1 luna, la sfarsitul primului an pentru filiera franceza.
                 </p>
             </div>
 
+            <div class="clean internship">
+                <a class="clean" href="http://www.auf.org/bureau-europe-centrale-et-orientale/">Stagii profesionale</a>
+                <p class="clean">
+                    De la 1 la 3 luni pentru punerea in practica a cunostiintelor dobandite in timpul scolii.
+                </p>
+            </div>
 
 
         </div>
@@ -33,10 +31,89 @@
         <div class="clean fi-tab lambda">
             <h4 class="clean">Stagii in Strainatate</h4>
 
+            <div class="clean internship">
+                <a class="clean" href="#">Burse LLP/Erasmus</a>
+                <p class="clean">
+                    Concursul de selectie a candidatilor pentru bursele LLP/ERASMUS va avea loc in perioada
+                    28 aprilie – 4  mai 2011
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Burse Ambasada Frantei</a>
+                <p class="clean">
+                    Guvernul francez atribuie anual mai mult de 100 de burse de specializare in Franta studentilor români. Unele dintre acestea sunt administrate de Serviciul de Cooperare si Actiune Culturala (SCAC) a Ambasadei Frantei în România, iar altele sunt administrate în mod direct de catre Ministerul Francez al Afacerilor Externe si Europene de la Paris.
+                    <br /><br />
+                    Pentru acestea, cu exceptia programului Copernic, studentul trebuie sa se înscrie la universiatea dorita si sa solicite bursa în paralel organismelor sus-mentionate prin Ambasada Frantei sau prin universitatea primitoare in Franta, în functie de tipul de bursa cerut.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Burse AUF</a>
+                <p class="clean">
+                    Mobilitati subventionate de catre Agentia Universitar Francofona (AUF). Aceste burse sunt destinate stagiilor de studiu sau stagiilor practice in universitati membre ale agentiei.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Burse DAAD</a>
+                <p class="clean">
+                    Serviciul German de Schimb Academic (DAAD) ofera studentilor facultatii noastre in fiecare an universitar burse de studiu si cercetare in Republica Federala Germania.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Burse private</a>
+                <p class="clean">
+                    In fiecare an universitar, intre 10 si 20 de studenti sunt beneficiari ai unor burse private destinate in special stagiilor practice.
+                    <br /> <br />
+                    Aceste burse sunt acordate de catre partenerii traditionali ai facultatii, universitatii sau unitati economice. Dupa preselectia din cadrul facultatii, selectia se face de catre finantator.
+                </p>
+            </div>
         </div>
 
         <div class="clean fi-tab omega">
             <h4 class="clean">Surse de finantare</h4>
+
+            <div class="clean internship">
+                <p class="clean" style="border-left: 0;">
+                    Programul LLP/ERASMUS coordonat de catre Uniunea Europeana. Finantarea permite stagii de studiu sau stagii practice de 3 pana la 9 luni in universitatile partenere din Europa sau in Intreprinderi cu care exista acorduri bilaterale.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <i class="icon-pdf icon doc-image"></i>
+                <a class="clean" href="#" style="margin-left: 20px;">Lista acorduri bilaterale</a>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Site-ul AUF</a>
+                <p class="clean">
+                    Mobilitati subventionate de catre <b>Agentia Universitar Francofona (AUF)</b>. Aceste burse sunt destinate stagiilor de studiu sau stagiilor practice in universitati membre ale agentiei.
+
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Ambasada Frantei</a>
+                <p class="clean">
+                    Mobilitati subventionate de catre <b>Ambasada Frantei</b> la Bucuresti. Aceste burse sunt destinate stagiilor de studiu sau stagiilor practice in universitati sau unitati economice din Franta.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">DAAD - Deutscher Akademischer Austausch Dienst</a>
+                <p class="clean">
+                    Programele de burse <b>DAAD</b>. Aceste burse sunt destinate stagiilor de studiu sau stagiilor practice in universitati sau unitati economice din Germania.
+                </p>
+            </div>
+
+            <div class="clean internship">
+                <a class="clean" href="#">Ecole Polytechnique (Paris)</a>
+                <p class="clean">
+                    Burse private pentru stagiu practic oferite de universitati si companii din strainatate
+                </p>
+            </div>
 
         </div>
 
