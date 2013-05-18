@@ -1328,9 +1328,9 @@ a { text-decoration: none; color:inherit; }
     text-shadow: 1px 2px white, -2px -2px #333;
 }
 
-.scholarships .description{}
+.content-wrapper .scholarships .description{}
 
-.scholarships .description h4{
+.content-wrapper .scholarships .description h4{
     font-family: 'Open sans', sans-serif;
     text-align: justify;
     font-weight: lighter;
@@ -1341,14 +1341,14 @@ a { text-decoration: none; color:inherit; }
     color: #3e5a66;
 }
 
-.scholarships .categories
+.content-wrapper .scholarships .categories
 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 60px;
     text-align: center;
 }
-.scholarships .categories h3
+.content-wrapper .scholarships .categories h3
 {
     font-family: 'PT sans', sans-serif;
     color: #3e5a66;
@@ -1356,14 +1356,14 @@ a { text-decoration: none; color:inherit; }
     margin-bottom: 20px;
 }
 
-.scholarships .categories a
+.content-wrapper .scholarships .categories a
 {
     height: 181px;
     float: left;
     padding: 0px 22px;
 }
 
-.scholarships .categories a h5
+.content-wrapper .scholarships .categories a h5
 {
     font-family: 'PT sans', sans-serif;
     font-size: 20px;
@@ -1372,16 +1372,16 @@ a { text-decoration: none; color:inherit; }
     padding-bottom: 5px;
 }
 
-.scholarships .categories a img
+.content-wrapper .scholarships .categories a img
 {
     z-index: 0;
 }
 
-.scholarships .categories a:hover > p{
+.content-wrapper .scholarships .categories a:hover > p{
     display: block;
 }
 
-.scholarships .categories a p
+.content-wrapper .scholarships .categories a p
 {
     display:none;
     padding: 0px 4px;
@@ -1399,48 +1399,229 @@ a { text-decoration: none; color:inherit; }
     overflow: hidden;
 }
 
-.scholarships .scholarship{ margin-bottom: 40px; }
-.scholarships .scholarship h3{
+.content-wrapper .scholarships .scholarship{ margin-bottom: 40px; }
+.content-wrapper .scholarships .scholarship h3{
     font-family: 'PT sans', sans-serif;
     text-align: center;
     color: #3e5a66;
     margin-bottom: 20px;
     font-size: 25px;
 }
-.scholarships .scholarship p{
+.content-wrapper .scholarships .scholarship p{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     margin-bottom: 20px;
 }
 
-.scholarships .scholarship .necessary-docs{}
-.scholarships .scholarship .necessary-docs h4{
+.content-wrapper .scholarships .scholarship .necessary-docs{}
+.content-wrapper .scholarships .scholarship .necessary-docs h4{
     font-family: 'PT sans', sans-serif;
     color: #3e5a66;
     font-size: 20px;
 }
-.scholarships .scholarship .necessary-docs ul{
+.content-wrapper .scholarships .scholarship .necessary-docs ul{
     margin-left: 20px;
     margin-top: 10px;
 }
-.scholarships .scholarship .necessary-docs ul li{}
-.scholarships .scholarship .necessary-docs ul li i{
+.content-wrapper .scholarships .scholarship .necessary-docs ul li{}
+.content-wrapper .scholarships .scholarship .necessary-docs ul li i{
     float: left;
     padding-right: 15px;
     background-repeat: no-repeat;
 }
-.scholarships .scholarship .necessary-docs ul li a{
+.content-wrapper .scholarships .scholarship .necessary-docs ul li a{
     font-family: 'Istok Web', sans-serif;
 }
 
 /****************  ends css for scholarships    *************/
 
 
+/****************  css for personal page    *************/
+.content-wrapper .personal-page{
+    text-align: center;
+}
+
+.content-wrapper .personal-page h2{
+    width: 498px;
+    position: relative;
+    top: -100px;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    color: #cccccc;
+    text-shadow: 1px 2px white, -2px -2px #333;
+}
+.content-wrapper .personal-page p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    top: -40px;
+    color: #3e5a66;
+}
+.content-wrapper .personal-page a{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: #870D27;
+    line-height: 80px;
+    height: 80px;
+}
+.content-wrapper .personal-page a img{
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+}
+/****************  ends css for personal page    *************/
 
 
+/****************  css for accommodation    *************/
+.content-wrapper .accommodation {}
+.content-wrapper .accommodation .top h2{
+    width: 500px;
+    position: relative;
+    top: -180px;
+    left: -210px;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(222, 221, 227);
+    text-shadow: 1px 2px white, -2px -2px #333;
+}
+
+.content-wrapper .accommodation .top .description{
+    color: #3e5a66;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    top: -45px;
+    padding: 15px 15px;
+    border-bottom: 4px double #ececec;
+}
+
+.content-wrapper .accommodation .gallery{
+
+}
+
+.content-wrapper .accommodation .gallery a{
+    padding: 11px 22px;
+    float: left;
+}
+
+.content-wrapper .accommodation .gallery img{
+    width: 200px;
+    height: 150px;
+}
+/****************  ends css for accommodation    *************/
+
+/****************  css for ong    *************/
+.content-wrapper .ong h2{
+    width: 600px;
+    position: relative;
+    top: -82px;
+    left: -47px;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 174, 93);
+    text-shadow: 1px 2px white, -2px -2px #333;
+}
+
+.content-wrapper .ong .description{
+    font-family: 'Open Sans', sans-serif;
+    color: #3e5a66;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    top: -40px;
+    padding: 0px 20px;
+}
+
+.content-wrapper .ong .ong-items .ong-item{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 200px;
+    line-height: 200px;
+}
+
+.content-wrapper .ong .ong-items .ong-item a img{
+    width: 300px;
+    height: 200px;
+}
+/****************  ends css for ong    *************/
 
 
+/****************  css for foreign students    *************/
+.content-wrapper .foreign-students{
 
+}
+
+.content-wrapper .foreign-students .image{
+
+}
+
+.content-wrapper .foreign-students .image h2{
+    width: 498px;
+    position: relative;
+    top: -70px;
+    left: -238px;
+    z-index: 10;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(223,155,134);
+    text-shadow: 1px 2px white, -2px -2px #333;
+}
+
+.content-wrapper .foreign-students .image p{
+    font-family: 'Open Sans', sans-serif;
+    color: #3e5a66;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 15px;
+    position: relative;
+    top: -40px;
+}
+
+.content-wrapper .foreign-students .gallery a{
+    padding: 11px 22px;
+    float: left;
+}
+
+.content-wrapper .foreign-students .gallery img{
+    width: 200px;
+    height: 150px;
+}
+
+
+.content-wrapper .foreign-students .docs{
+    padding: 20px 15px;
+    border-bottom: 4px double #ececec;
+    margin-bottom: 50px;
+    padding-top: 0;
+}
+
+
+.content-wrapper .foreign-students .docs h4{
+    font-family: 'PT sans', sans-serif;
+    color: #3e5a66;
+    font-size: 20px;
+}
+.content-wrapper .foreign-students .docs ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.content-wrapper .foreign-students .docs ul li i{
+    float: left;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+}
+.content-wrapper .foreign-students .docs ul li a{
+    font-family: 'Istok Web', sans-serif;
+}
+/****************  ends css for foreign students    *************/
 
 
 

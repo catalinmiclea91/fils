@@ -16,7 +16,7 @@
     <title><?php if(isset($title)) echo $title; ?></title>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/blueberry.css" />
-
+    <link rel="stylesheet" href="/assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
     <!-- schimba asta -->

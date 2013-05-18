@@ -82,11 +82,18 @@
 <script src="/assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="/assets/js/jquery.blueberry.js" type="text/javascript"></script>
 <script src="/assets/js/jquery.components.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/custom.js" type="text/javascript"></script>
 
 <script>
     $(window).load(function() {
         $('.blueberry').blueberry();
+    });
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto();
     });
 </script>
 
