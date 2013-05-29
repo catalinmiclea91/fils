@@ -291,7 +291,7 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
 .search_bar{
 	top:50%;
 	margin-top: -30px;
-	position: absolute; 
+	position: absolute;
 	overflow: hidden;
 	width: 30px;
 	height: 60px;
@@ -307,15 +307,15 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
 	width: 140px;
 }
 .search_bar input[type="text"]	{
-	border: 0; 
-	padding: 0; 
-	margin: 0; 
-	background: none; 
-	text-align: center; 
-	position: relative; 
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: none;
+	text-align: center;
+	position: relative;
 	font-size: 12px;
-	width: 100px; 
-	height: 60px; 
+	width: 100px;
+	height: 60px;
 	left: 0;
 
     font-family: 'Open Sans';
@@ -326,9 +326,9 @@ ul#mainmenu > li:first-child:before, .mobile_link:before{
 	position: absolute;
 	text-indent: -1000em;
 	cursor: pointer;
-	-webkit-border-radius: 0; 
-	width: 30px; 
-	height: 60px; 
+	-webkit-border-radius: 0;
+	width: 30px;
+	height: 60px;
 	right: 0;
 	top: 0;
 	display: block;
@@ -1139,11 +1139,16 @@ a { text-decoration: none; color:inherit; }
 
 
 .content-wrapper .students .students-item img{
-    margin-top: 4px;
+    margin-top: 10px;
     margin-left: 4px;
     margin-right: 4px;
-    width: 454px;
-    height: 130px;
+    max-width: 454px;
+    max-height: 150px;
+    height:100%;
+
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0, .75);
+    box-shadow: 0 0 6px rgba(0,0,0, .75);
 }
 
 
@@ -1623,7 +1628,298 @@ a { text-decoration: none; color:inherit; }
 }
 /****************  ends css for foreign students    *************/
 
+/****************  css for about main page    *************/
+.content-wrapper .about{ width: 100%;
+    display: inline-block;
+    text-align: center; }
 
+.students-h2-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    color: #870D27;
+    text-align: center;
+}
+
+.students-content-wrapper{
+    border-top: 1px solid #ececec;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+.content-wrapper .about .about-item{
+    border: 3px ridge #ececec;
+    border-bottom: 2px ridge #ececec;
+    border-top: 2px ridge #ececec;
+    width: 460px;
+    margin: 20px 12px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+
+.content-wrapper .about .about-item img{
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    max-width: 454px;
+    max-height: 150px;
+    height:100%;
+
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0, .75);
+    box-shadow: 0 0 6px rgba(0,0,0, .75);
+}
+
+
+.content-wrapper .about .item-description{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content-wrapper .about .item-description h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+.content-wrapper .about .item-description p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 15px;
+}
+/****************  ends css for about main page    *************/
+
+/****************  css for photo gallery page    *************/
+.content-wrapper .about .foto
+{
+    width:950px;
+}
+/****************  ends css for Photo gallery page    *************/
+
+/****************  css for Alumni page    *************/
+.content-wrapper .alumni
+{
+    width:920px;
+    height:auto;
+    margin:auto;
+    display:block;
+}
+
+.content-wrapper .alumni .alumni-heading
+{
+    width:900px;
+    height:auto;
+    margin:auto;
+    display:block;
+}
+
+.content-wrapper .alumni .alumni-heading .imgHeadingAlumni
+{
+    width:100%;
+}
+
+.content-wrapper .alumni .alumni-content
+{
+    width:900px;
+    height:auto;
+    margin:auto;
+    display:block;
+
+    margin-bottom:10px;
+
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.content-wrapper .alumni .alumni-content .alumni-content-title
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:26px;
+    color:#870d26;
+}
+
+.content-wrapper .alumni .alumni-content .alumni-content-image
+{
+    width:auto;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+}
+
+.content-wrapper .alumni .alumni-content .alumni-content-content
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: justify;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+}
+/****************  ends css Alumni gallery page    *************/
+
+/****************  css for Partners page    *************/
+.content-wrapper .partners
+{
+    width:920px;
+    height:auto;
+    margin:auto;
+    display:block;
+
+
+}
+
+.content-wrapper .partners .partners-heading
+{
+    width:900px;
+    height:auto;
+    margin:auto;
+    display:block;
+}
+
+.content-wrapper .partners .partners-heading .imgHeadingParteneri
+{
+    width:100%;
+}
+
+.content-wrapper .partners .level-one-partners
+{
+    width:900px;
+    height:auto;
+    margin:auto;
+    display:block;
+
+    margin-bottom:20px;
+
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.content-wrapper .partners .level-one-partners .one-partner-title
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:26px;
+    color:#870d26;
+}
+
+.content-wrapper .partners .level-one-partners .one-partner-content
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: justify;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+}
+
+.content-wrapper .partners .level-two-partners
+{
+    width:900px;
+    height:auto;
+    margin:auto;
+    display:block;
+
+    margin-bottom:10px;
+
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.content-wrapper .partners .level-two-partners .two-partner-title
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:22px;
+    color:#870d26;
+}
+
+.content-wrapper .partners .level-two-partners .two-partner-image
+{
+    width:auto;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+}
+
+.content-wrapper .partners .level-two-partners .two-partner-content
+{
+    width:880px;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: justify;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+}
+
+/****************  ends css for Partners page    *************/
 
 
 /*** C O L O R S

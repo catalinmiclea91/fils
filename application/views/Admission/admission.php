@@ -7,7 +7,7 @@
 </div>
 
 <div class="clean ed-main ed-main-licenta">
-    <h3 class="clean ed-main-title licenta-title">
+    <h3 class="ed-main-title licenta-title clean ">
         Admitere Licenta
     </h3>
     <ul class="clean">
